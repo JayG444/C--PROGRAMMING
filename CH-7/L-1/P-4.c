@@ -9,7 +9,7 @@ main()
 	printf("Enter the Marks of Science :");
 	scanf("%f",&z);
 	
-	printf("Average Marks :%.2f.\n",a = (x+y+z)/3);
+	printf("Average Marks :%.2f.\n",a = (x+y+z)/3 );
 	
 	
 	if(a>=90 && a<=100)
@@ -40,9 +40,13 @@ main()
 	{
 		printf("Your Grade is D1");	
 	}
-	else
+	else if(a>=0 && a<33)
 	{
 		printf("Better luck , Next time.");	
+	}
+	else 
+	{
+		printf("Invalid Marks.");
 	}
 	
 }
