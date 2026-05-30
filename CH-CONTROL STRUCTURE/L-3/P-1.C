@@ -10,24 +10,10 @@ main()
 	scanf("%d",&z);
 	
 	(x<y)?
-		(x<z)?
-		
-			printf("%d is Minimum.",x)	
-		
-		:
-		
-			printf("%d is Minimum.",z)
-		
-	
+		(x<z)?printf("%d is Minimum.",x)	
+		:printf("%d is Minimum.",z)
 	:
-	
-		(y<z)?
-		
-			printf("%d is Minimum.",y)	
-		
-		:
-		
-			printf("%d is Minimum.",z);
-		
+		(y<z)?printf("%d is Minimum.",y)	
+		:printf("%d is Minimum.",z);
 }
 
