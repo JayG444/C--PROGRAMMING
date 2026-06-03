@@ -1,7 +1,7 @@
 #include<stdio.h>
 main()
 {
-	int a,b,c,d,e;
+	int a,b,c,d,e,f;
 	printf("Press 1 for Hollywood.\n");
 	printf("Press 2 for Bollywood.\n");
 	printf("Press 3 for Tollywood.\n");
@@ -39,6 +39,13 @@ main()
 							printf("Press 2 for'4 Seats'.\n");
 							printf("Enter your choice :");
 							scanf("%d",&e);
+								switch(e){
+									case 1:
+										printf("\nPress 1 for'VR mall Theater'.\n");
+										printf("Press 2 for'Valentine Theater'.\n");
+										printf("Enter your choice :");
+										scanf("%d",&f);
+									}
 							break;
 							case 2:
 							printf("\nPress 1 for'1 Seat'.\n");
@@ -47,14 +54,34 @@ main()
 							printf("Press 2 for'4 Seats'.\n");
 							printf("Enter your choice :");
 							scanf("%d",&e);
+								switch(e){
+									case 1:
+										printf("\nPress 1 for'VR mall Theater'.\n");
+										printf("Press 2 for'Valentine Theater'.\n");
+										printf("Enter your choice :");
+										scanf("%d",&f);
+									break;
+									default:
+									printf("Invalid Number.");	
+									}
 							break;
 							case 3:
 							printf("\nPress 1 for'1 Seat'.\n");
 							printf("Press 2 for'2 Seats'.\n");
-							printf("Press 2 for'3 Seats'.\n");
-							printf("Press 2 for'4 Seats'.\n");
+							printf("Press 3 for'3 Seats'.\n");
+							printf("Press 4 for'4 Seats'.\n");
 							printf("Enter your choice :");
 							scanf("%d",&e);
+								switch(e){
+									case 1:
+										printf("\nPress 1 for'VR mall Theater'.\n");
+										printf("Press 2 for'Valentine Theater'.\n");
+										printf("Enter your choice :");
+										scanf("%d",&f);
+									break;
+									default:
+									printf("Invalid Number.");
+									}
 							break;
 							default:
 							printf("Invalid Number.");	
@@ -70,26 +97,56 @@ main()
 							case 1:
 							printf("\nPress 1 for'1 Seat'.\n");
 							printf("Press 2 for'2 Seats'.\n");
-							printf("Press 2 for'3 Seats'.\n");
-							printf("Press 2 for'4 Seats'.\n");
+							printf("Press 3 for'3 Seats'.\n");
+							printf("Press 4 for'4 Seats'.\n");
 							printf("Enter your choice :");
 							scanf("%d",&e);
+							switch(e){
+									case 1:
+										printf("\nPress 1 for'VR mall Theater'.\n");
+										printf("Press 2 for'Valentine Theater'.\n");
+										printf("Enter your choice :");
+										scanf("%d",&f);
+									break;
+									default:
+									printf("Invalid Number.");	
+									}
 							break;
 							case 2:
 							printf("\nPress 1 for'1 Seat'.\n");
 							printf("Press 2 for'2 Seats'.\n");
-							printf("Press 2 for'3 Seats'.\n");
-							printf("Press 2 for'4 Seats'.\n");
+							printf("Press 3 for'3 Seats'.\n");
+							printf("Press 4 for'4 Seats'.\n");
 							printf("Enter your choice :");
 							scanf("%d",&e);
+							switch(e){
+									case 1:
+										printf("\nPress 1 for'VR mall Theater'.\n");
+										printf("Press 2 for'Valentine Theater'.\n");
+										printf("Enter your choice :");
+										scanf("%d",&f);
+									break;
+									default:
+									printf("Invalid Number.");	
+									}
 							break;
 							case 3:
 							printf("\nPress 1 for'1 Seat'.\n");
 							printf("Press 2 for'2 Seats'.\n");
-							printf("Press 2 for'3 Seats'.\n");
-							printf("Press 2 for'4 Seats'.\n");
+							printf("Press 3 for'3 Seats'.\n");
+							printf("Press 4 for'4 Seats'.\n");
 							printf("Enter your choice :");
 							scanf("%d",&e);
+							switch(e){
+									case 1:
+										printf("\nPress 1 for'VR mall Theater'.\n");
+										printf("Press 2 for'Valentine Theater'.\n");
+										printf("Enter your choice :");
+										scanf("%d",&f);
+									break;
+									default:
+									printf("Invalid Number.");	
+									}
 							break;
 							default:
 							printf("Invalid Number.");	
@@ -115,26 +172,56 @@ main()
 							case 1:
 							printf("\nPress 1 for'1 Seat'.\n");
 							printf("Press 2 for'2 Seats'.\n");
-							printf("Press 2 for'3 Seats'.\n");
-							printf("Press 2 for'4 Seats'.\n");
+							printf("Press 3 for'3 Seats'.\n");
+							printf("Press 4 for'4 Seats'.\n");
 							printf("Enter your choice :");
 							scanf("%d",&e);
+							switch(e){
+									case 1:
+										printf("\nPress 1 for'VR mall Theater'.\n");
+										printf("Press 2 for'Valentine Theater'.\n");
+										printf("Enter your choice :");
+										scanf("%d",&f);
+									break;
+									default:
+									printf("Invalid Number.");	
+									}
 							break;
 							case 2:
 							printf("\nPress 1 for'1 Seat'.\n");
 							printf("Press 2 for'2 Seats'.\n");
-							printf("Press 2 for'3 Seats'.\n");
-							printf("Press 2 for'4 Seats'.\n");
+							printf("Press 3 for'3 Seats'.\n");
+							printf("Press 4 for'4 Seats'.\n");
 							printf("Enter your choice :");
 							scanf("%d",&e);
+							switch(e){
+									case 1:
+										printf("\nPress 1 for'VR mall Theater'.\n");
+										printf("Press 2 for'Valentine Theater'.\n");
+										printf("Enter your choice :");
+										scanf("%d",&f);
+									break;
+									default:
+									printf("Invalid Number.");	
+									}
 							break;
 							case 3:
 							printf("\nPress 1 for'1 Seat'.\n");
 							printf("Press 2 for'2 Seats'.\n");
-							printf("Press 2 for'3 Seats'.\n");
-							printf("Press 2 for'4 Seats'.\n");
+							printf("Press 3 for'3 Seats'.\n");
+							printf("Press 4 for'4 Seats'.\n");
 							printf("Enter your choice :");
 							scanf("%d",&e);
+							switch(e){
+									case 1:
+										printf("\nPress 1 for'VR mall Theater'.\n");
+										printf("Press 2 for'Valentine Theater'.\n");
+										printf("Enter your choice :");
+										scanf("%d",&f);
+									break;
+									default:
+									printf("Invalid Number.");	
+									}
 							break;
 							default:
 							printf("Invalid Number.");	
@@ -150,26 +237,56 @@ main()
 							case 1:
 							printf("\nPress 1 for'1 Seat'.\n");
 							printf("Press 2 for'2 Seats'.\n");
-							printf("Press 2 for'3 Seats'.\n");
-							printf("Press 2 for'4 Seats'.\n");
+							printf("Press 3 for'3 Seats'.\n");
+							printf("Press 4 for'4 Seats'.\n");
 							printf("Enter your choice :");
 							scanf("%d",&e);
+							switch(e){
+									case 1:
+										printf("\nPress 1 for'VR mall Theater'.\n");
+										printf("Press 2 for'Valentine Theater'.\n");
+										printf("Enter your choice :");
+										scanf("%d",&f);
+									break;
+									default:
+									printf("Invalid Number.");	
+									}
 							break;
 							case 2:
 							printf("\nPress 1 for'1 Seat'.\n");
 							printf("Press 2 for'2 Seats'.\n");
-							printf("Press 2 for'3 Seats'.\n");
-							printf("Press 2 for'4 Seats'.\n");
+							printf("Press 3 for'3 Seats'.\n");
+							printf("Press 4 for'4 Seats'.\n");
 							printf("Enter your choice :");
 							scanf("%d",&e);
+							switch(e){
+									case 1:
+										printf("\nPress 1 for'VR mall Theater'.\n");
+										printf("Press 2 for'Valentine Theater'.\n");
+										printf("Enter your choice :");
+										scanf("%d",&f);
+									break;
+									default:
+									printf("Invalid Number.");	
+									}
 							break;
 							case 3:
 							printf("\nPress 1 for'1 Seat'.\n");
 							printf("Press 2 for'2 Seats'.\n");
-							printf("Press 2 for'3 Seats'.\n");
-							printf("Press 2 for'4 Seats'.\n");
+							printf("Press 3 for'3 Seats'.\n");
+							printf("Press 4 for'4 Seats'.\n");
 							printf("Enter your choice :");
 							scanf("%d",&e);
+							switch(e){
+									case 1:
+										printf("\nPress 1 for'VR mall Theater'.\n");
+										printf("Press 2 for'Valentine Theater'.\n");
+										printf("Enter your choice :");
+										scanf("%d",&f);
+									break;
+									default:
+									printf("Invalid Number.");	
+									}
 							break;
 							default:
 							printf("Invalid Number.");	
@@ -195,26 +312,56 @@ main()
 							case 1:
 							printf("\nPress 1 for'1 Seat'.\n");
 							printf("Press 2 for'2 Seats'.\n");
-							printf("Press 2 for'3 Seats'.\n");
-							printf("Press 2 for'4 Seats'.\n");
+							printf("Press 3 for'3 Seats'.\n");
+							printf("Press 4 for'4 Seats'.\n");
 							printf("Enter your choice :");
 							scanf("%d",&e);
+							switch(e){
+									case 1:
+										printf("\nPress 1 for'VR mall Theater'.\n");
+										printf("Press 2 for'Valentine Theater'.\n");
+										printf("Enter your choice :");
+										scanf("%d",&f);
+									break;
+									default:
+									printf("Invalid Number.");	
+									}
 							break;
 							case 2:
 							printf("\nPress 1 for'1 Seat'.\n");
 							printf("Press 2 for'2 Seats'.\n");
-							printf("Press 2 for'3 Seats'.\n");
-							printf("Press 2 for'4 Seats'.\n");
+							printf("Press 3 for'3 Seats'.\n");
+							printf("Press 4 for'4 Seats'.\n");
 							printf("Enter your choice :");
 							scanf("%d",&e);
+							switch(e){
+									case 1:
+										printf("\nPress 1 for'VR mall Theater'.\n");
+										printf("Press 2 for'Valentine Theater'.\n");
+										printf("Enter your choice :");
+										scanf("%d",&f);
+									break;
+									default:
+									printf("Invalid Number.");	
+									}
 							break;
 							case 3:
 							printf("\nPress 1 for'1 Seat'.\n");
 							printf("Press 2 for'2 Seats'.\n");
-							printf("Press 2 for'3 Seats'.\n");
-							printf("Press 2 for'4 Seats'.\n");
+							printf("Press 3 for'3 Seats'.\n");
+							printf("Press 4 for'4 Seats'.\n");
 							printf("Enter your choice :");
 							scanf("%d",&e);
+							switch(e){
+									case 1:
+										printf("\nPress 1 for'VR mall Theater'.\n");
+										printf("Press 2 for'Valentine Theater'.\n");
+										printf("Enter your choice :");
+										scanf("%d",&f);
+									break;
+									default:
+									printf("Invalid Number.");	
+									}
 							break;
 							default:
 							printf("Invalid Number.");	
@@ -230,26 +377,56 @@ main()
 							case 1:
 							printf("\nPress 1 for'1 Seat'.\n");
 							printf("Press 2 for'2 Seats'.\n");
-							printf("Press 2 for'3 Seats'.\n");
-							printf("Press 2 for'4 Seats'.\n");
+							printf("Press 3 for'3 Seats'.\n");
+							printf("Press 4 for'4 Seats'.\n");
 							printf("Enter your choice :");
 							scanf("%d",&e);
+							switch(e){
+									case 1:
+										printf("\nPress 1 for'VR mall Theater'.\n");
+										printf("Press 2 for'Valentine Theater'.\n");
+										printf("Enter your choice :");
+										scanf("%d",&f);
+									break;
+									default:
+									printf("Invalid Number.");	
+									}
 							break;
 							case 2:
 							printf("\nPress 1 for'1 Seat'.\n");
 							printf("Press 2 for'2 Seats'.\n");
-							printf("Press 2 for'3 Seats'.\n");
-							printf("Press 2 for'4 Seats'.\n");
+							printf("Press 3 for'3 Seats'.\n");
+							printf("Press 4 for'4 Seats'.\n");
 							printf("Enter your choice :");
 							scanf("%d",&e);
+							switch(e){
+									case 1:
+										printf("\nPress 1 for'VR mall Theater'.\n");
+										printf("Press 2 for'Valentine Theater'.\n");
+										printf("Enter your choice :");
+										scanf("%d",&f);
+									break;
+									default:
+									printf("Invalid Number.");	
+									}
 							break;
 							case 3:
 							printf("\nPress 1 for'1 Seat'.\n");
 							printf("Press 2 for'2 Seats'.\n");
-							printf("Press 2 for'3 Seats'.\n");
-							printf("Press 2 for'4 Seats'.\n");
+							printf("Press 3 for'3 Seats'.\n");
+							printf("Press 4 for'4 Seats'.\n");
 							printf("Enter your choice :");
 							scanf("%d",&e);
+							switch(e){
+									case 1:
+										printf("\nPress 1 for'VR mall Theater'.\n");
+										printf("Press 2 for'Valentine Theater'.\n");
+										printf("Enter your choice :");
+										scanf("%d",&f);
+									break;
+									default:
+									printf("Invalid Number.");	
+									}
 							break;
 							default:
 							printf("Invalid Number.");	
@@ -275,24 +452,44 @@ main()
 							case 1:
 							printf("\nPress 1 for'1 Seat'.\n");
 							printf("Press 2 for'2 Seats'.\n");
-							printf("Press 2 for'3 Seats'.\n");
-							printf("Press 2 for'4 Seats'.\n");
+							printf("Press 3 for'3 Seats'.\n");
+							printf("Press 4 for'4 Seats'.\n");
 							printf("Enter your choice :");
 							scanf("%d",&e);
+							switch(e){
+									case 1:
+										printf("\nPress 1 for'VR mall Theater'.\n");
+										printf("Press 2 for'Valentine Theater'.\n");
+										printf("Enter your choice :");
+										scanf("%d",&f);
+									break;
+									default:
+									printf("Invalid Number.");	
+									}
 							break;
 							case 2:
 							printf("\nPress 1 for'1 Seat'.\n");
 							printf("Press 2 for'2 Seats'.\n");
-							printf("Press 2 for'3 Seats'.\n");
-							printf("Press 2 for'4 Seats'.\n");
+							printf("Press 3 for'3 Seats'.\n");
+							printf("Press 4 for'4 Seats'.\n");
 							printf("Enter your choice :");
 							scanf("%d",&e);
+							switch(e){
+									case 1:
+										printf("\nPress 1 for'VR mall Theater'.\n");
+										printf("Press 2 for'Valentine Theater'.\n");
+										printf("Enter your choice :");
+										scanf("%d",&f);
+									break;
+									default:
+									printf("Invalid Number.");	
+									}
 							break;
 							case 3:
 							printf("\nPress 1 for'1 Seat'.\n");
 							printf("Press 2 for'2 Seats'.\n");
-							printf("Press 2 for'3 Seats'.\n");
-							printf("Press 2 for'4 Seats'.\n");
+							printf("Press 3 for'3 Seats'.\n");
+							printf("Press 4 for'4 Seats'.\n");
 							printf("Enter your choice :");
 							scanf("%d",&e);
 							break;
@@ -310,26 +507,56 @@ main()
 							case 1:
 							printf("\nPress 1 for'1 Seat'.\n");
 							printf("Press 2 for'2 Seats'.\n");
-							printf("Press 2 for'3 Seats'.\n");
-							printf("Press 2 for'4 Seats'.\n");
+							printf("Press 3 for'3 Seats'.\n");
+							printf("Press 4 for'4 Seats'.\n");
 							printf("Enter your choice :");
 							scanf("%d",&e);
+							switch(e){
+									case 1:
+										printf("\nPress 1 for'VR mall Theater'.\n");
+										printf("Press 2 for'Valentine Theater'.\n");
+										printf("Enter your choice :");
+										scanf("%d",&f);
+									break;
+									default:
+									printf("Invalid Number.");	
+									}
 							break;
 							case 2:
 							printf("\nPress 1 for'1 Seat'.\n");
 							printf("Press 2 for'2 Seats'.\n");
-							printf("Press 2 for'3 Seats'.\n");
-							printf("Press 2 for'4 Seats'.\n");
+							printf("Press 3 for'3 Seats'.\n");
+							printf("Press 4 for'4 Seats'.\n");
 							printf("Enter your choice :");
 							scanf("%d",&e);
+							switch(e){
+									case 1:
+										printf("\nPress 1 for'VR mall Theater'.\n");
+										printf("Press 2 for'Valentine Theater'.\n");
+										printf("Enter your choice :");
+										scanf("%d",&f);
+									break;
+									default:
+									printf("Invalid Number.");	
+									}
 							break;
 							case 3:
 							printf("\nPress 1 for'1 Seat'.\n");
 							printf("Press 2 for'2 Seats'.\n");
-							printf("Press 2 for'3 Seats'.\n");
-							printf("Press 2 for'4 Seats'.\n");
+							printf("Press 3 for'3 Seats'.\n");
+							printf("Press 4 for'4 Seats'.\n");
 							printf("Enter your choice :");
 							scanf("%d",&e);
+							switch(e){
+									case 1:
+										printf("\nPress 1 for'VR mall Theater'.\n");
+										printf("Press 2 for'Valentine Theater'.\n");
+										printf("Enter your choice :");
+										scanf("%d",&f);
+									break;
+									default:
+									printf("Invalid Number.");	
+									}
 							break;
 							default:
 							printf("Invalid Number.");	
@@ -355,26 +582,56 @@ main()
 							case 1:
 							printf("\nPress 1 for'1 Seat'.\n");
 							printf("Press 2 for'2 Seats'.\n");
-							printf("Press 2 for'3 Seats'.\n");
-							printf("Press 2 for'4 Seats'.\n");
+							printf("Press 3 for'3 Seats'.\n");
+							printf("Press 4 for'4 Seats'.\n");
 							printf("Enter your choice :");
 							scanf("%d",&e);
+							switch(e){
+									case 1:
+										printf("\nPress 1 for'VR mall Theater'.\n");
+										printf("Press 2 for'Valentine Theater'.\n");
+										printf("Enter your choice :");
+										scanf("%d",&f);
+									break;
+									default:
+									printf("Invalid Number.");	
+									}
 							break;
 							case 2:
 							printf("\nPress 1 for'1 Seat'.\n");
 							printf("Press 2 for'2 Seats'.\n");
-							printf("Press 2 for'3 Seats'.\n");
-							printf("Press 2 for'4 Seats'.\n");
+							printf("Press 3 for'3 Seats'.\n");
+							printf("Press 4 for'4 Seats'.\n");
 							printf("Enter your choice :");
 							scanf("%d",&e);
+							switch(e){
+									case 1:
+										printf("\nPress 1 for'VR mall Theater'.\n");
+										printf("Press 2 for'Valentine Theater'.\n");
+										printf("Enter your choice :");
+										scanf("%d",&f);
+									break;
+									default:
+									printf("Invalid Number.");	
+									}
 							break;
 							case 3:
 							printf("\nPress 1 for'1 Seat'.\n");
 							printf("Press 2 for'2 Seats'.\n");
-							printf("Press 2 for'3 Seats'.\n");
-							printf("Press 2 for'4 Seats'.\n");
+							printf("Press 3 for'3 Seats'.\n");
+							printf("Press 4 for'4 Seats'.\n");
 							printf("Enter your choice :");
 							scanf("%d",&e);
+							switch(e){
+									case 1:
+										printf("\nPress 1 for'VR mall Theater'.\n");
+										printf("Press 2 for'Valentine Theater'.\n");
+										printf("Enter your choice :");
+										scanf("%d",&f);
+									break;
+									default:
+									printf("Invalid Number.");	
+									}
 							break;
 							default:
 							printf("Invalid Number.");	
@@ -390,26 +647,56 @@ main()
 							case 1:
 							printf("\nPress 1 for'1 Seat'.\n");
 							printf("Press 2 for'2 Seats'.\n");
-							printf("Press 2 for'3 Seats'.\n");
-							printf("Press 2 for'4 Seats'.\n");
+							printf("Press 3 for'3 Seats'.\n");
+							printf("Press 4 for'4 Seats'.\n");
 							printf("Enter your choice :");
 							scanf("%d",&e);
+							switch(e){
+									case 1:
+										printf("\nPress 1 for'VR mall Theater'.\n");
+										printf("Press 2 for'Valentine Theater'.\n");
+										printf("Enter your choice :");
+										scanf("%d",&f);
+									break;
+									default:
+									printf("Invalid Number.");	
+									}
 							break;
 							case 2:
 							printf("\nPress 1 for'1 Seat'.\n");
 							printf("Press 2 for'2 Seats'.\n");
-							printf("Press 2 for'3 Seats'.\n");
-							printf("Press 2 for'4 Seats'.\n");
+							printf("Press 3 for'3 Seats'.\n");
+							printf("Press 4 for'4 Seats'.\n");
 							printf("Enter your choice :");
 							scanf("%d",&e);
+							switch(e){
+									case 1:
+										printf("\nPress 1 for'VR mall Theater'.\n");
+										printf("Press 2 for'Valentine Theater'.\n");
+										printf("Enter your choice :");
+										scanf("%d",&f);
+									break;
+									default:
+									printf("Invalid Number.");	
+									}
 							break;
 							case 3:
 							printf("\nPress 1 for'1 Seat'.\n");
 							printf("Press 2 for'2 Seats'.\n");
-							printf("Press 2 for'3 Seats'.\n");
-							printf("Press 2 for'4 Seats'.\n");
+							printf("Press 3 for'3 Seats'.\n");
+							printf("Press 4 for'4 Seats'.\n");
 							printf("Enter your choice :");
 							scanf("%d",&e);
+							switch(e){
+									case 1:
+										printf("\nPress 1 for'VR mall Theater'.\n");
+										printf("Press 2 for'Valentine Theater'.\n");
+										printf("Enter your choice :");
+										scanf("%d",&f);
+									break;
+									default:
+									printf("Invalid Number.");	
+									}
 							break;
 							default:
 							printf("Invalid Number.");	
