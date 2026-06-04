@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #include <stdio.h>
 main()
 {
@@ -6,46 +6,47 @@ main()
 	printf("Enter your score :");
 	scanf("%d",&Marks);
 	
-	(Marks>=90 && Marks<=100)
-	?printf("Your grade is A.Excellent Work!Congratulations!You are eligible for next level.")
-	:(Marks>=80 && Marks<90)
-	?printf("Your grade is B.Well Done!Congratulations!You are eligible for next level.")
-	:(Marks>=70 && Marks<80)
-	?printf("Your grade is C.Good Work!Congratulations!You are eligible for next level.")
-	:(Marks>=60 && Marks<70)
-	?printf("Your grade is D1.Good Effort.Congratulations!You are eligible for next level.")
-	:(Marks>=50 && Marks<60)
-	?printf("Your grade is D2.You Passed but you could do better!Congratulations!You are eligible for next level.")
-	:(Marks>=33 && Marks<50)
-	?printf("Your grade is E.Good but try harder.Congratulations!.You are eligible for next level.")
-	:(Marks>=0 && Marks<33)
-	?printf("Your grade is F.You Fail.Better luck, Next time.You are not eligible for next level.")
-				
-	: printf("Invalid Marks");
-}
-=======
-#include <stdio.h>
-main()
-{
-	int Marks;
-	printf("Enter your score :");
-	scanf("%d",&Marks);
+	(Marks>=80 && Marks<=100)
+	?printf("Your grade is A.")
+	:(Marks>=60 && Marks<=79)
+	?printf("Your grade is B.")
+	:(Marks>=40 && Marks<=59)
+	?printf("Your grade is C.")
+	:(Marks>=33 && Marks<=39)
+	?printf("Your grade is D.")
+	:(Marks>=0 && Marks<=32)
+	?printf("Your grade is F.")
+	:printf("Invalid Marks.");
 	
-	(Marks>=90 && Marks<=100)
-	?printf("Your grade is A.Excellent Work!Congratulations!You are eligible for next level.")
-	:(Marks>=80 && Marks<90)
-	?printf("Your grade is B.Well Done!Congratulations!You are eligible for next level.")
-	:(Marks>=70 && Marks<80)
-	?printf("Your grade is C.Good Work!Congratulations!You are eligible for next level.")
-	:(Marks>=60 && Marks<70)
-	?printf("Your grade is D1.Good Effort.Congratulations!You are eligible for next level.")
-	:(Marks>=50 && Marks<60)
-	?printf("Your grade is D2.You Passed but you could do better!Congratulations!You are eligible for next level.")
-	:(Marks>=33 && Marks<50)
-	?printf("Your grade is E.Good but try harder.Congratulations!.You are eligible for next level.")
-	:(Marks>=0 && Marks<33)
-	?printf("Your grade is F.You Fail.Better luck, Next time.You are not eligible for next level.")
-				
-	: printf("Invalid Marks");
+	switch(Marks){
+		 case 80 ... 100: 
+            printf("Excellent Work!"); 
+            break; 
+        case 60 ... 79: 
+            printf("Well Done."); 
+            break; 
+        case 40 ... 59 : 
+            printf("Good Job."); 
+            break; 
+        case 33 ... 39: 
+            printf("You Passed but you could do Better."); 
+            break; 
+        case 0 ... 32: 
+            printf("Sorry, you Failed."); 
+            break; 
+        default: 
+            printf("Invalid Marks."); 
+	}
+	if (Marks >= 33 && Marks <= 100) {
+        printf("You are eligible for the next level.");
+    }
+    else if(Marks>=0 && Marks <33)
+	{
+		printf("Please try again next time.");
+	}
+	else
+	{ 
+		printf("Invalid Marks.");
+	}
 }
->>>>>>> 1c415ea1502bf302f30c9e32a22b8408561d2fb9
+
