@@ -47,7 +47,40 @@ main()
 										printf("Enter your choice :");
 										scanf("%d",&f);
 										switch(f){
-											case 
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+												switch(g){
+													case 1:
+														printf("You have booked Hollywood Drama movie 'Once upon time in hollywood 10 $ Seat' in VR Mall Theater with Popcorn only.");
+													break;
+													case 2:
+														printf("You have booked Hollywood Drama movie 'Once upon time in hollywood 10 $ Seat' in VR Mall Theater with Coke only.");
+													break;
+													case 3:
+														printf("You have booked Hollywood Drama movie 'Once upon time in hollywood 10 $ Seat' in VR Mall Theater with Both Popcorn and Coke.");
+													break;
+													case 4:
+														printf("You have booked Hollywood Drama movie 'Once upon time in hollywood 10 $ Seat' in VR Mall Theater with Nothing.");
+													break;
+													default:
+														printf("Invalid Number.");	
+												}
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
 										}
 									break;
 									case 2:
@@ -55,18 +88,78 @@ main()
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 3:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 4:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									default:
 										printf("Invalid Number.");
@@ -85,24 +178,104 @@ main()
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 2:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 3:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 4:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									default:
 									printf("Invalid Number.");	
@@ -121,24 +294,104 @@ main()
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 2:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 3:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 4:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									default:
 									printf("Invalid Number.");
@@ -168,24 +421,104 @@ main()
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 2:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 3:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 4:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									default:
 									printf("Invalid Number.");	
@@ -204,24 +537,104 @@ main()
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 2:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 3:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 4:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									default:
 									printf("Invalid Number.");	
@@ -240,24 +653,104 @@ main()
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 2:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 3:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 4:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									default:
 									printf("Invalid Number.");	
@@ -297,24 +790,104 @@ main()
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 2:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 3:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 4:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									default:
 									printf("Invalid Number.");	
@@ -333,24 +906,104 @@ main()
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 2:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 3:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 4:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									default:
 									printf("Invalid Number.");	
@@ -369,24 +1022,104 @@ main()
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 2:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 3:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 4:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									default:
 									printf("Invalid Number.");	
@@ -416,24 +1149,103 @@ main()
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 2:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
-										scanf("%d",&f);
+										scanf("%d",&f);switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 3:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 4:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									default:
 									printf("Invalid Number.");	
@@ -452,24 +1264,104 @@ main()
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 2:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 3:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 4:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									default:
 									printf("Invalid Number.");	
@@ -488,24 +1380,104 @@ main()
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 2:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 3:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 4:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									default:
 									printf("Invalid Number.");	
@@ -545,24 +1517,104 @@ main()
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 2:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 3:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 4:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									default:
 									printf("Invalid Number.");	
@@ -581,24 +1633,104 @@ main()
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 2:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 3:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 4:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									default:
 									printf("Invalid Number.");	
@@ -617,24 +1749,104 @@ main()
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 2:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 3:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 4:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									default:
 									printf("Invalid Number.");	
@@ -664,24 +1876,104 @@ main()
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 2:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 3:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 4:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									default:
 									printf("Invalid Number.");	
@@ -700,24 +1992,104 @@ main()
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 2:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 3:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 4:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									default:
 									printf("Invalid Number.");	
@@ -736,24 +2108,104 @@ main()
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 2:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 3:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 4:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									default:
 									printf("Invalid Number.");	
@@ -793,24 +2245,104 @@ main()
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 2:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 3:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 4:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									default:
 									printf("Invalid Number.");	
@@ -829,24 +2361,104 @@ main()
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 2:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 3:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 4:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									default:
 									printf("Invalid Number.");	
@@ -884,24 +2496,104 @@ main()
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 2:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 3:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 4:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									default:
 									printf("Invalid Number.");	
@@ -920,24 +2612,104 @@ main()
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 2:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 3:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 4:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									default:
 									printf("Invalid Number.");	
@@ -956,24 +2728,104 @@ main()
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 2:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 3:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 4:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									default:
 									printf("Invalid Number.");	
@@ -1013,24 +2865,104 @@ main()
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 2:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 3:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 4:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									default:
 									printf("Invalid Number.");	
@@ -1049,24 +2981,104 @@ main()
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 2:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 3:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 4:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									default:
 									printf("Invalid Number.");	
@@ -1085,24 +3097,104 @@ main()
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 2:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 3:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 4:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									default:
 									printf("Invalid Number.");	
@@ -1132,24 +3224,104 @@ main()
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 2:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 3:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 4:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									default:
 									printf("Invalid Number.");	
@@ -1168,24 +3340,104 @@ main()
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 2:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 3:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 4:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									default:
 									printf("Invalid Number.");	
@@ -1204,24 +3456,104 @@ main()
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 2:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 3:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									case 4:
 										printf("\nPress 1 for'VR mall Theater'.\n");
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 1:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											case 2:
+												printf("\nPress 1 for Popcorn only.\n");
+												printf("Press 2 for Coke only.\n");
+												printf("Press 3 for Both Popcorn and Coke.\n");   
+												printf("Press 4 for Nothing.\n");
+												printf("Enter your choice :");
+												scanf("%d",&g);
+											break;
+											default:
+												printf("Invalid Number.");	
+										}
 									break;
 									default:
 									printf("Invalid Number.");	
