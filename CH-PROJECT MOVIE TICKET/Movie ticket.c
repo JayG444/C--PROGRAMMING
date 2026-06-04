@@ -1,4 +1,3 @@
-
 #include<stdio.h>
 main()
 {
@@ -56,19 +55,43 @@ main()
 												scanf("%d",&g);
 												switch(g){
 													case 1:
-														printf("You have booked 1 seat of Hollywood Drama movie 'Once upon time in hollywood 10 $ Seat' in VR Mall Theater with Popcorn only.");
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : VR Mall\n");
+														printf("Total Seats : 1\n");
+														printf("Price : 10$\n");
+														printf("Snacks : Popcorn only");
+														printf("\n-----------------------------------------");
 													break;
 													case 2:
-														printf("You have booked 1 seat of Hollywood Drama movie 'Once upon time in hollywood 10 $ Seat' in VR Mall Theater with Coke only.");
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : VR Mall\n");
+														printf("Total Seats : 1\n");
+														printf("Price : 10$\n");
+														printf("Snacks : Coke only");
+														printf("\n-----------------------------------------");
 													break;
 													case 3:
-														printf("You have booked 1 seat of Hollywood Drama movie 'Once upon time in hollywood 10 $ Seat' in VR Mall Theater with Both Popcorn and Coke.");
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : VR Mall\n");
+														printf("Total Seats : 1\n");
+														printf("Price : 10$\n");
+														printf("Snacks : Popcorn And Coke");
+														printf("\n-----------------------------------------");
 													break;
 													case 4:
-														printf("You have booked 1 seat of Hollywood Drama movie 'Once upon time in hollywood 10 $ Seat' in VR Mall Theater with Nothing.");
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : VR Mall\n");
+														printf("Total Seats : 1\n");
+														printf("Price : 10$\n");
+														printf("Snacks : Nothing");
+														printf("\n-----------------------------------------");
 													break;
 													default:
-														printf("Invalid Number.");	
+														printf("Invalid Number.");
 												}
 											break;
 											case 2:
@@ -80,19 +103,43 @@ main()
 												scanf("%d",&g);
 												switch(g){
 													case 1:
-														printf("You have booked 1 seat of Hollywood Drama movie 'Once upon time in hollywood 10 $ Seat' in Valentine Theater with Popcorn only.");
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : Valentine\n");
+														printf("Total Seats : 1\n");
+														printf("Price : 10$\n");
+														printf("Snacks : Popcorn only");
+														printf("\n-----------------------------------------");
 													break;
 													case 2:
-														printf("You have booked 1 seat of Hollywood Drama movie 'Once upon time in hollywood 10 $ Seat' in Valentine Theater with Coke only.");
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : Valentine\n");
+														printf("Total Seats : 1\n");
+														printf("Price : 10$\n");
+														printf("Snacks : Coke only");
+														printf("\n-----------------------------------------");
 													break;
 													case 3:
-														printf("You have booked 1 seat of Hollywood Drama movie 'Once upon time in hollywood 10 $ Seat' in Valentine Theater with Both Popcorn and Coke.");
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : Valentine\n");
+														printf("Total Seats : 1\n");
+														printf("Price : 10$\n");
+														printf("Snacks : Popcorn And Coke");
+														printf("\n-----------------------------------------");
 													break;
 													case 4:
-														printf("You have booked 1 seat of Hollywood Drama movie 'Once upon time in hollywood 10 $ Seat' in Valentine Theater with Nothing.");
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : Valentine\n");
+														printf("Total Seats : 1\n");
+														printf("Price : 10$\n");
+														printf("Snacks : Nothing");
+														printf("\n-----------------------------------------");
 													break;
 													default:
-														printf("Invalid Number.");	
+														printf("Invalid Number.");
 												}
 											break;
 											default:
@@ -114,19 +161,43 @@ main()
 												scanf("%d",&g);
 												switch(g){
 													case 1:
-														printf("You have booked 2 seats of Hollywood Drama movie 'Once upon time in hollywood 10 $ Seat' in VR Mall Theater with Popcorn only.");
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : VR Mall\n");
+														printf("Total Seats : 2\n");
+														printf("Price : 20$\n");
+														printf("Snacks : Popcorn only");
+														printf("\n-----------------------------------------");
 													break;
 													case 2:
-														printf("You have booked 2 seats of Hollywood Drama movie 'Once upon time in hollywood 10 $ Seat' in VR Mall Theater with Coke only.");
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : VR Mall\n");
+														printf("Total Seats : 2\n");
+														printf("Price : 20$\n");
+														printf("Snacks : Coke only");
+														printf("\n-----------------------------------------");
 													break;
 													case 3:
-														printf("You have booked 2 seats of Hollywood Drama movie 'Once upon time in hollywood 10 $ Seat' in VR Mall Theater with Both Popcorn and Coke.");
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : VR Mall\n");
+														printf("Total Seats : 2\n");
+														printf("Price : 20$\n");
+														printf("Snacks : Popcorn And Coke");
+														printf("\n-----------------------------------------");
 													break;
 													case 4:
-														printf("You have booked 2 seats of Hollywood Drama movie 'Once upon time in hollywood 10 $ Seat' in VR Mall Theater with Nothing.");
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : VR Mall\n");
+														printf("Total Seats : 2\n");
+														printf("Price : 20$\n");
+														printf("Snacks : Nothing");
+														printf("\n-----------------------------------------");
 													break;
 													default:
-														printf("Invalid Number.");	
+														printf("Invalid Number.");
 												}
 											break;
 											case 2:
@@ -138,19 +209,43 @@ main()
 												scanf("%d",&g);
 												switch(g){
 													case 1:
-														printf("You have booked 2 seats of Hollywood Drama movie 'Once upon time in hollywood 10 $ Seat' in Valentine Theater with Popcorn only.");
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : Valentine Mall\n");
+														printf("Total Seats : 2\n");
+														printf("Price : 20$\n");
+														printf("Snacks : Popcorn only");
+														printf("\n-----------------------------------------");
 													break;
 													case 2:
-														printf("You have booked 2 seats of Hollywood Drama movie 'Once upon time in hollywood 10 $ Seat' in Valentine Theater with Coke only.");
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : Valentine Mall\n");
+														printf("Total Seats : 2\n");
+														printf("Price : 20$\n");
+														printf("Snacks : Coke only");
+														printf("\n-----------------------------------------");
 													break;
 													case 3:
-														printf("You have booked 2 seats of Hollywood Drama movie 'Once upon time in hollywood 10 $ Seat' in Valentine Theater with Both Popcorn and Coke.");
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : Valentine Mall\n");
+														printf("Total Seats : 2\n");
+														printf("Price : 20$\n");
+														printf("Snacks : Popcorn And Coke");
+														printf("\n-----------------------------------------");
 													break;
 													case 4:
-														printf("You have booked 2 seats of Hollywood Drama movie 'Once upon time in hollywood 10 $ Seat' in Valentine Theater with Nothing.");
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : Valentine Mall\n");
+														printf("Total Seats : 2\n");
+														printf("Price : 20$\n");
+														printf("Snacks : Nothing");
+														printf("\n-----------------------------------------");
 													break;
 													default:
-														printf("Invalid Number.");	
+														printf("Invalid Number.");
 												}
 											break;
 											default:
@@ -172,21 +267,44 @@ main()
 												scanf("%d",&g);
 												switch(g){
 													case 1:
-														printf("You have booked 3 seats of Hollywood Drama movie 'Once upon time in hollywood 10 $ Seat' in VR Mall Theater with Popcorn only.");
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : VR Mall\n");
+														printf("Total Seats : 3\n");
+														printf("Price : 30$\n");
+														printf("Snacks : Popcorn only");
+														printf("\n-----------------------------------------");
 													break;
 													case 2:
-														printf("You have booked 3 seats of Hollywood Drama movie 'Once upon time in hollywood 10 $ Seat' in VR Mall Theater with Coke only.");
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : VR Mall\n");
+														printf("Total Seats : 3\n");
+														printf("Price : 30$\n");
+														printf("Snacks : Coke only");
+														printf("\n-----------------------------------------");
 													break;
 													case 3:
-														printf("You have booked 3 seats of Hollywood Drama movie 'Once upon time in hollywood 10 $ Seat' in VR Mall Theater with Both Popcorn and Coke.");
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : VR Mall\n");
+														printf("Total Seats : 3\n");
+														printf("Price : 30$\n");
+														printf("Snacks : Popcorn And Coke");
+														printf("\n-----------------------------------------");
 													break;
 													case 4:
-														printf("You have booked 3 seats of Hollywood Drama movie 'Once upon time in hollywood 10 $ Seat' in VR Mall Theater with Nothing.");
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : VR Mall\n");
+														printf("Total Seats : 3\n");
+														printf("Price : 30$\n");
+														printf("Snacks : Nothing");
+														printf("\n-----------------------------------------");
 													break;
 													default:
-														printf("Invalid Number.");	
+														printf("Invalid Number.");
 												}
-											break;
 											break;
 											case 2:
 												printf("\nPress 1 for Popcorn only.\n");
@@ -197,21 +315,44 @@ main()
 												scanf("%d",&g);
 												switch(g){
 													case 1:
-														printf("You have booked 3 seats of Hollywood Drama movie 'Once upon time in hollywood 10 $ Seat' in Valentine Theater with Popcorn only.");
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : Valentine\n");
+														printf("Total Seats : 3\n");
+														printf("Price : 30$\n");
+														printf("Snacks : Popcorn only");
+														printf("\n-----------------------------------------");
 													break;
 													case 2:
-														printf("You have booked 3 seats of Hollywood Drama movie 'Once upon time in hollywood 10 $ Seat' in Valentine Theater with Coke only.");
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : Valentine\n");
+														printf("Total Seats : 3\n");
+														printf("Price : 30$\n");
+														printf("Snacks : Coke only");
+														printf("\n-----------------------------------------");
 													break;
 													case 3:
-														printf("You have booked 3 seats of Hollywood Drama movie 'Once upon time in hollywood 10 $ Seat' in Valentine Theater with Both Popcorn and Coke.");
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : Valentine\n");
+														printf("Total Seats : 3\n");
+														printf("Price : 30$\n");
+														printf("Snacks : Popcorn And Coke");
+														printf("\n-----------------------------------------");
 													break;
 													case 4:
-														printf("You have booked 3 seats of Hollywood Drama movie 'Once upon time in hollywood 10 $ Seat' in Valentine Theater with Nothing.");
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : Valentine\n");
+														printf("Total Seats : 3\n");
+														printf("Price : 30$\n");
+														printf("Snacks : Nothing");
+														printf("\n-----------------------------------------");
 													break;
 													default:
-														printf("Invalid Number.");	
+														printf("Invalid Number.");
 												}
-											break;
 											break;
 											default:
 												printf("Invalid Number.");	
@@ -230,6 +371,46 @@ main()
 												printf("Press 4 for Nothing.\n");
 												printf("Enter your choice :");
 												scanf("%d",&g);
+												switch(g){
+													case 1:
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : VR Mall\n");
+														printf("Total Seats : 4\n");
+														printf("Price : 40$\n");
+														printf("Snacks : Popcorn only");
+														printf("\n-----------------------------------------");
+													break;
+													case 2:
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : VR Mall\n");
+														printf("Total Seats : 4\n");
+														printf("Price : 40$\n");
+														printf("Snacks : Coke only");
+														printf("\n-----------------------------------------");
+													break;
+													case 3:
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : VR Mall\n");
+														printf("Total Seats : 4\n");
+														printf("Price : 40$\n");
+														printf("Snacks : Popcorn And Coke");
+														printf("\n-----------------------------------------");
+													break;
+													case 4:
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : VR Mall\n");
+														printf("Total Seats : 4\n");
+														printf("Price : 40$\n");
+														printf("Snacks : Nothing");
+														printf("\n-----------------------------------------");
+													break;
+													default:
+														printf("Invalid Number.");
+												}
 											break;
 											case 2:
 												printf("\nPress 1 for Popcorn only.\n");
@@ -238,6 +419,46 @@ main()
 												printf("Press 4 for Nothing.\n");
 												printf("Enter your choice :");
 												scanf("%d",&g);
+												switch(g){
+													case 1:
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : Valentine\n");
+														printf("Total Seats : 4\n");
+														printf("Price : 40$\n");
+														printf("Snacks : Popcorn only");
+														printf("\n-----------------------------------------");
+													break;
+													case 2:
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : Valentine\n");
+														printf("Total Seats : 4\n");
+														printf("Price : 40$\n");
+														printf("Snacks : Coke only");
+														printf("\n-----------------------------------------");
+													break;
+													case 3:
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : Valentine\n");
+														printf("Total Seats : 4\n");
+														printf("Price : 40$\n");
+														printf("Snacks : Popcorn And Coke");
+														printf("\n-----------------------------------------");
+													break;
+													case 4:
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : Valentine\n");
+														printf("Total Seats : 4\n");
+														printf("Price : 40$\n");
+														printf("Snacks : Nothing");
+														printf("\n-----------------------------------------");
+													break;
+													default:
+														printf("Invalid Number.");
+												}
 											break;
 											default:
 												printf("Invalid Number.");	
@@ -268,6 +489,47 @@ main()
 												printf("Press 4 for Nothing.\n");
 												printf("Enter your choice :");
 												scanf("%d",&g);
+												switch(g){
+													case 1:
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : VR Mall\n");
+														printf("Total Seats : 1\n");
+														printf("Price : 20$\n");
+														printf("Snacks : Popcorn only");
+														printf("\n-----------------------------------------");
+													break;
+													case 2:
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : VR Mall\n");
+														printf("Total Seats : 1\n");
+														printf("Price : 20$\n");
+														printf("Snacks : Coke only");
+														printf("\n-----------------------------------------");
+													break;
+													case 3:
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : VR Mall\n");
+														printf("Total Seats : 1\n");
+														printf("Price : 20$\n");
+														printf("Snacks : Popcorn And Coke");
+														printf("\n-----------------------------------------");
+													break;
+													case 4:
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : VR Mall\n");
+														printf("Total Seats : 1\n");
+														printf("Price : 20$\n");
+														printf("Snacks : Nothing");
+														printf("\n-----------------------------------------");
+													break;
+													default:
+														printf("Invalid Number.");
+												}
+												
 											break;
 											case 2:
 												printf("\nPress 1 for Popcorn only.\n");
@@ -276,6 +538,46 @@ main()
 												printf("Press 4 for Nothing.\n");
 												printf("Enter your choice :");
 												scanf("%d",&g);
+												switch(g){
+													case 1:
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : Valentine\n");
+														printf("Total Seats : 1\n");
+														printf("Price : 20$\n");
+														printf("Snacks : Popcorn only");
+														printf("\n-----------------------------------------");
+													break;
+													case 2:
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : Valentine\n");
+														printf("Total Seats : 1\n");
+														printf("Price : 20$\n");
+														printf("Snacks : Coke only");
+														printf("\n-----------------------------------------");
+													break;
+													case 3:
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : Valentine\n");
+														printf("Total Seats : 1\n");
+														printf("Price : 20$\n");
+														printf("Snacks : Popcorn And Coke");
+														printf("\n-----------------------------------------");
+													break;
+													case 4:
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : Valentine\n");
+														printf("Total Seats : 1\n");
+														printf("Price : 20$\n");
+														printf("Snacks : Nothing");
+														printf("\n-----------------------------------------");
+													break;
+													default:
+														printf("Invalid Number.");
+												}
 											break;
 											default:
 												printf("Invalid Number.");	
@@ -294,6 +596,47 @@ main()
 												printf("Press 4 for Nothing.\n");
 												printf("Enter your choice :");
 												scanf("%d",&g);
+													switch(g){
+													case 1:
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : VR Mall\n");
+														printf("Total Seats : 2\n");
+														printf("Price : 40$\n");
+														printf("Snacks : Popcorn only");
+														printf("\n-----------------------------------------");
+													break;
+													case 2:
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : VR Mall\n");
+														printf("Total Seats : 2\n");
+														printf("Price : 40$\n");
+														printf("Snacks : Coke only");
+														printf("\n-----------------------------------------");
+													break;
+													case 3:
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : VR Mall\n");
+														printf("Total Seats : 2\n");
+														printf("Price : 40$\n");
+														printf("Snacks : Popcorn And Coke");
+														printf("\n-----------------------------------------");
+													break;
+													case 4:
+														printf("\n-----------------------------------------\n");
+														printf("Movie : Once upon a time in Hollywood.\n");
+														printf("Theater : VR Mall\n");
+														printf("Total Seats : 2\n");
+														printf("Price : 40$\n");
+														printf("Snacks : Nothing");
+														printf("\n-----------------------------------------");
+													break;
+													default:
+														printf("Invalid Number.");
+												}
+												
 											break;
 											case 2:
 												printf("\nPress 1 for Popcorn only.\n");
