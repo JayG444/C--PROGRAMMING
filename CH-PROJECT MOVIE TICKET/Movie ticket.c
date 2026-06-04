@@ -2,7 +2,7 @@
 #include<stdio.h>
 main()
 {
-	int a,b,c,d,e,f;
+	int a,b,c,d,e,f,g;
 	printf("Press 1 for Hollywood.\n");
 	printf("Press 2 for Bollywood.\n");
 	printf("Press 3 for Tollywood.\n");
@@ -46,6 +46,9 @@ main()
 										printf("Press 2 for'Valentine Theater'.\n");
 										printf("Enter your choice :");
 										scanf("%d",&f);
+										switch(f){
+											case 
+										}
 									break;
 									case 2:
 										printf("\nPress 1 for'VR mall Theater'.\n");
