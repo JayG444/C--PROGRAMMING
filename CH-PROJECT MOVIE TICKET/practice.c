@@ -2,7 +2,7 @@
 main()
 {
 	int Cinema,Movie;
-	int TypeofMovie,SeatPrice,;
+	int TypeofMovie,SeatPrice;
 	int Theatre,Seats;
 	int Shift;
 	printf("Press 1 for Hollywood.\n");
@@ -27,7 +27,7 @@ main()
 					printf("Enter your choice :");
 					scanf("%d",&Movie);
 					
-					switch(Movie){
+					switch(Movie){//f1
 						case 1://F1
 						printf("\nPress 1 for 15$ Front Seat.\n");
 						printf("Press 2 for 30$ Back Seat.\n");
@@ -85,6 +85,35 @@ main()
 								printf("Press 3 for 3 seats.\n");
 								printf("Enter your choice :");
 								scanf("%d",&Seats);
+								
+								switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 								break;//valentine seats
 								
 								default:
@@ -96,6 +125,34 @@ main()
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Theatre){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 30$
 							
 							default:
@@ -115,17 +172,73 @@ main()
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Theatre){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 15$
 							case 2://30 $
 							printf("\nPress 1 for VR Mall.\n");
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Theatre){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 30$
-							
+								
 							default:
 								printf("Invalid Number");
-						}
+						}//theatre
 						
 					break;//stepbrothers
 					
@@ -154,12 +267,68 @@ main()
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Theatre){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 15$
 							case 2://30 $
 							printf("\nPress 1 for VR Mall.\n");
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Theatre){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 30$
 							
 							default:
@@ -180,12 +349,68 @@ main()
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Theatre){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 15$
 							case 2://30 $
 							printf("\nPress 1 for VR Mall.\n");
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Theatre){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 30$
 							
 							default:
@@ -215,12 +440,68 @@ main()
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 15$
 							case 2://30 $
 							printf("\nPress 1 for VR Mall.\n");
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 30$
 							
 							default:
@@ -239,14 +520,70 @@ main()
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 15$
 							case 2://30 $
 							printf("\nPress 1 for VR Mall.\n");
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 30$
-							
+								
 							default:
 								printf("Invalid Number");
 						}//theatre
@@ -287,12 +624,68 @@ main()
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 15$
 							case 2://30 $
 							printf("\nPress 1 for VR Mall.\n");
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 30$
 							
 							default:
@@ -311,12 +704,68 @@ main()
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 15$
 							case 2://30 $
 							printf("\nPress 1 for VR Mall.\n");
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 30$
 							
 							default:
@@ -341,7 +790,79 @@ main()
 						printf("Press 2 for 30$ Back Seat.\n");
 						printf("Enter your choice :");
 						scanf("%d",&SeatPrice);
-						
+						switch(SeatPrice){//theatre
+							case 1://15 $
+							printf("\nPress 1 for VR Mall.\n");
+							printf("Press 2 for Valentine.\n");
+							printf("Enter your choice :");
+							scanf("%d",&Theatre);
+								switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
+							break;// 15$
+							case 2://30 $
+							printf("\nPress 1 for VR Mall.\n");
+							printf("Press 2 for Valentine.\n");
+							printf("Enter your choice :");
+							scanf("%d",&Theatre);
+								switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
+							break;// 30$
+							
+							default:
+								printf("Invalid Number");
+						}//theatre
 						break;//dhurandhar
 						
 						case 2:// tehran
@@ -355,12 +876,68 @@ main()
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 15$
 							case 2://30 $
 							printf("\nPress 1 for VR Mall.\n");
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 30$
 							
 							default:
@@ -390,12 +967,68 @@ main()
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								 switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 15$
 							case 2://30 $
 							printf("\nPress 1 for VR Mall.\n");
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 30$
 							
 							default:
@@ -414,12 +1047,68 @@ main()
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 15$
 							case 2://30 $
 							printf("\nPress 1 for VR Mall.\n");
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 30$
 							
 							default:
@@ -462,12 +1151,68 @@ main()
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 15$
 							case 2://30 $
 							printf("\nPress 1 for VR Mall.\n");
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 30$
 							
 							default:
@@ -486,12 +1231,68 @@ main()
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 15$
 							case 2://30 $
 							printf("\nPress 1 for VR Mall.\n");
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 30$
 							
 							default:
@@ -521,12 +1322,68 @@ main()
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 15$
 							case 2://30 $
 							printf("\nPress 1 for VR Mall.\n");
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 30$
 							
 							default:
@@ -545,12 +1402,68 @@ main()
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 15$
 							case 2://30 $
 							printf("\nPress 1 for VR Mall.\n");
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 30$
 							
 							default:
@@ -580,12 +1493,68 @@ main()
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 15$
 							case 2://30 $
 							printf("\nPress 1 for VR Mall.\n");
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 30$
 							
 							default:
@@ -604,12 +1573,68 @@ main()
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 15$
 							case 2://30 $
 							printf("\nPress 1 for VR Mall.\n");
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 30$
 							
 							default:
@@ -652,12 +1677,68 @@ main()
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 15$
 							case 2://30 $
 							printf("\nPress 1 for VR Mall.\n");
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 30$
 							
 							default:
@@ -676,12 +1757,68 @@ main()
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 15$
 							case 2://30 $
 							printf("\nPress 1 for VR Mall.\n");
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 30$
 							
 							default:
@@ -711,12 +1848,68 @@ main()
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 15$
 							case 2://30 $
 							printf("\nPress 1 for VR Mall.\n");
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 30$
 							
 							default:
@@ -735,12 +1928,68 @@ main()
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 15$
 							case 2://30 $
 							printf("\nPress 1 for VR Mall.\n");
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 30$
 							
 							default:
@@ -770,12 +2019,68 @@ main()
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 15$
 							case 2://30 $
 							printf("\nPress 1 for VR Mall.\n");
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 30$
 							
 							default:
@@ -794,12 +2099,70 @@ main()
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Seats){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 15$
 							case 2://30 $
 							printf("\nPress 1 for VR Mall.\n");
 							printf("Press 2 for Valentine.\n");
 							printf("Enter your choice :");
 							scanf("%d",&Theatre);
+								switch(Theatre){//Shift
+									case 1://1 seat
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									
+									break;//1seat
+									
+									case 2://2 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									                                                     
+									break;//2seats
+									
+									case 3://3 seats
+									printf("\nPress 1 for Morning.\n");
+									printf("Press 2 for Afternoon.\n");
+									printf("Press 3 for Night.\n");
+									printf("Enter your choice :");
+									scanf("%d",&Seats);
+									break;//3seats
+									
+									default:
+										printf("Invalid Number.");
+								}//shift
 							break;// 30$
 							
 							default:
