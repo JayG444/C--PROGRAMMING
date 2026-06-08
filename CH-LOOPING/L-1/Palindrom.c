@@ -5,7 +5,8 @@ main()
 	
 	printf("Enter your Number :");
 	scanf("%d",&n);
-	n=a;
+	rev==0;
+	a=n;
 	while(n!=0)
 	{
 		rem= n%10;
