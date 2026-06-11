@@ -6,7 +6,14 @@ main()
 	{
 		for(j=i;j>=1;j--)
 		{
-			printf("%d\t",j);	
+			if(j%2==0)
+			{
+			printf("O\t");
+			}
+			else
+			{
+				printf("1\t");
+			}
 		}
 		printf("\n");
 	}

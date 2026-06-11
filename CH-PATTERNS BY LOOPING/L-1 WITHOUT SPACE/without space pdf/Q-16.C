@@ -2,17 +2,17 @@
 main()
 {
 	int i,j;
-	for(i=1;i<=5;i++)
+	for(i=5;i>=1;i--)
 	{
-		for(j=5;j>=i;j--)
+		for(j=i;j>=1;j--)
 		{
 			if(j%2==0)
 			{
-				printf("0");	
+			printf("O\t");
 			}
 			else
 			{
-				printf("1");
+				printf("1\t");
 			}
 		}
 		printf("\n");
