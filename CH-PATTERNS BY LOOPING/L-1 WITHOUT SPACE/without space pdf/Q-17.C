@@ -1,0 +1,20 @@
+#include<stdio.h>
+main()
+{
+	int i,j;
+	for(i=5;i>=1;i--)
+	{
+		for(j=5;j>=i;j--)
+		{
+			if(j%2==0)
+			{
+			printf("O\t");
+			}
+			else
+			{
+				printf("1\t");
+			}	
+		}
+		printf("\n");
+	}
+}
