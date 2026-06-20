@@ -19,13 +19,13 @@ main()
     }
     printf("Enter Row Number: ");
     scanf("%d",&row);
-    printf("Elements of Row :");
+    printf("Elements of Row %d:",row);
     for(int i=0;i<colsize;i++)
     {
         printf("%d\t",a[row][i]);
     }
     printf("\n");
-    printf("Sum of Row:");
+    printf("Sum of Row %d:",row);
     for(int i=0;i<colsize;i++)
     {
         sum=sum+a[row][i];
@@ -34,14 +34,14 @@ main()
 
     printf("\nEnter Column Number: ");
     scanf("%d",&col);
-    printf("Elements of Column:");
+    printf("Elements of Column %d:",col);
     for(int i=0;i<rowsize;i++)
     {
         printf("%d\t",a[i][col]);
     }
     printf("\n");
     sum=0;
-    printf("Sum of Column:");
+    printf("Sum of Column %d:",col);
     for(int i=0;i<rowsize;i++)
     {
         sum=sum+a[i][col];
