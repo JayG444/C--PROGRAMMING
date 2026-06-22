@@ -42,6 +42,7 @@ main()
     printf("\n");
     sum=0;
     printf("Sum of Column %d:",col);
+
     for(int i=0;i<rowsize;i++)
     {
         sum=sum+a[i][col];

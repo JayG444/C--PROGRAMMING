@@ -22,7 +22,7 @@ main()
     {
         for(int j=0;j<col;j++)
         {
-            if(i+j==row-1)
+            if(i==j)
             {
                 printf("%d ",a[i][j]);
                 sum=sum+a[i][j];
@@ -34,5 +34,5 @@ main()
         }
         printf("\n");
     }
-    printf("Sum of Anti-Diagonal elements:%d", sum);
+    printf("Sum of Diagonal elements:%d", sum);
 }
