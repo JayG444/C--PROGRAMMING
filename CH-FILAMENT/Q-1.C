@@ -20,4 +20,22 @@ main()
         printf("The given string is Palindrome.");
     else
         printf("The given string is not Palindrome.");
+    printf("\n");
+    for (int x = 0; x < i; x++)
+    {
+        int freq = 1;
+
+        for (int j = x + 1; j < i; j++)
+        {
+            if (str[x] == str[j])
+            {
+                freq++;
+                str[j] = '\0';
+            }
+        }
+        if (str[x] != '\0')
+        {
+            printf("%c => %d\n", str[x], freq);
+        }
+    }
 }
