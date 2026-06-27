@@ -25,7 +25,7 @@ main()
     {
         int freq = 1;
 
-        for (int j = x + 1; j < i; j++)
+        for (j = x + 1; j < i; j++)
         {
             if (str[x] == str[j])
             {
