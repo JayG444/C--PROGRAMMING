@@ -2,7 +2,7 @@
 
 int main()
 {
-    std::cout << "Hello World...\n";
-    std::cout << "Hello C++ programming...\n";
+    std::cout << "Name: Jay Gohil\n";
+    std::cout << "Currently Learning C++\n";
     return 0;
 }
