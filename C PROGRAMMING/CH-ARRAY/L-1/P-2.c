@@ -7,8 +7,7 @@ main()
 
     int a[size];
     sum=0;
-    int i;
-    for(i=0;i<size;i++)
+    for(int i=0;i<size;i++)
     {
         printf("Enter array elements :");
         scanf("%d",&a[i]);
