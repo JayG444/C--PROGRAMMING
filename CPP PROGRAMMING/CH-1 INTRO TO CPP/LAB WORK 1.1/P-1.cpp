@@ -17,8 +17,12 @@ int main()
         cin >> arr[i];
     }
 
-    cout << "Even Elements of an Array :"<<endl;
-
-    
-
+    cout << "Even Elements of an Array :" << endl;
+    for (int i = 0; i < size; i++)
+    {
+        if (arr[i] % 2 == 0)
+        {
+            cout << arr[i] << "  ";
+        }
+    }
 }
