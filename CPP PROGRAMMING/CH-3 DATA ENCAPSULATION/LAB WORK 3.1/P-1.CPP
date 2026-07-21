@@ -14,7 +14,7 @@ private:
     char stu_college[20];
 
 public:
-    void getstudentdata()
+    void Setstudentdata()
     {
         cout << "Enter Student ID : ";
         cin >> stu_id;
@@ -46,7 +46,7 @@ public:
              << endl;
     }
 
-    void setstudentdata()
+    void Getstudentdata()
     {
         cout << "ID :" << stu_id << " || "
              << "Name :" << stu_name << " || "
@@ -62,14 +62,15 @@ public:
 int main()
 {
     Student s1, s2, s3, s4, s5;
-    s1.getstudentdata();
-    s2.getstudentdata();
-    s3.getstudentdata();
-    s4.getstudentdata();
-    s5.getstudentdata();
-    s1.setstudentdata();
-    s2.setstudentdata();
-    s3.setstudentdata();
-    s4.setstudentdata();
-    s5.setstudentdata();
+
+    s1.Setstudentdata();
+    s2.Setstudentdata();
+    s3.Setstudentdata();
+    s4.Setstudentdata();
+    s5.Setstudentdata();
+    s1.Getstudentdata();
+    s2.Getstudentdata();
+    s3.Getstudentdata();
+    s4.Getstudentdata();
+    s5.Getstudentdata();
 }
