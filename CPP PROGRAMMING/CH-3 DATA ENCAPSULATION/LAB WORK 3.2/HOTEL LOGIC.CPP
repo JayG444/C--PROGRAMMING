@@ -50,9 +50,7 @@ public:
         cout << "Hotel Location: " << hotel_location << endl;
         cout << "Hotel Establish Year: " << hotel_establish_year << endl;
         cout << "Hotel Staff Quantity: " << hotel_staff_quantity << endl;
-        cout << "Hotel Room Quantity: " << hotel_room_quantity << endl
-             << endl
-             << endl;
+        cout << "Hotel Room Quantity: " << hotel_room_quantity << endl;
     }
 };
 
