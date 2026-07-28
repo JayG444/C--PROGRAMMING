@@ -8,7 +8,7 @@ private:
     char hotel_name[20];
     char hotel_type[20];
     char hotel_rating[20];
-    char hotel_location[20];
+    static string hotel_location;
     int hotel_establish_year;
     int hotel_staff_quantity;
     int hotel_room_quantity;
@@ -30,10 +30,6 @@ public:
         fflush(stdin);
         cout << "Enter Hotel Rating: ";
         gets(hotel_rating);
-
-        fflush(stdin);
-        cout << "Enter Hotel Location: ";
-        gets(hotel_location);
 
         cout << "Enter Hotel Establish Year: ";
         cin >> hotel_establish_year;
@@ -59,3 +55,5 @@ public:
              << endl;
     }
 };
+
+string Hotel::hotel_location = "Surat";
