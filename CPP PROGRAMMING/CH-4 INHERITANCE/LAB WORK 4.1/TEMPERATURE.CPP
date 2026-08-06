@@ -1,13 +1,13 @@
 #include <iostream>
 using namespace std;
 
-class Temperature
+class P
 {
 protected:
     int Celcius;
 };
 
-class Fahrenheit : public Temperature
+class Q : public P
 {
 public:
     void SetTemp()
@@ -23,7 +23,7 @@ public:
     }
 };
 
-class Kelvin : public Fahrenheit
+class R : public Q
 {
 public:
     void TempKelvin()
@@ -35,9 +35,9 @@ public:
 
 int main()
 {
-    Kelvin k1;
+    R r1;
 
-    k1.SetTemp();
-    k1.TempFahrenheit();
-    k1.TempKelvin();
+    r1.SetTemp();
+    r1.TempFahrenheit();
+    r1.TempKelvin();
 }
