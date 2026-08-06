@@ -76,12 +76,15 @@ public:
         cout << "Enter Train Name: ";
         gets(trainName);
 
+        fflush(stdin);
         cout << "Enter Source: ";
         gets(source);
 
+        fflush(stdin);
         cout << "Enter Destination: ";
         gets(destination);
 
+        fflush(stdin);
         cout << "Enter Train Time: ";
         gets(trainTime);
     }
