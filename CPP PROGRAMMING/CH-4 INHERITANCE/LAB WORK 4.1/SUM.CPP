@@ -26,7 +26,7 @@ public:
     }
     void getdata()
     {
-        cout << CUBE(a, b, c);
+        cout << "The sum of cubes is : " << CUBE(a, b, c);
     }
 };
 int main()
