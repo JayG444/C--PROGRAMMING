@@ -39,10 +39,60 @@ public:
         cout << "Name : " << stu_name << endl;
         cout << "GPA : " << stu_gpa << endl;
     }
+    int getRollNo()
+    {
+        return stu_rollno;
+    }
 };
 class StudentRecordManager
 {
 private:
     Student stu[20];
-    int size = 0;
+    int totalstudents;
+
+public:
+    StudentRecordManager()
+    {
+        totalstudents = 0;
+    }
+    void newstudent()
+    {
+        if (totalstudents < 20)
+        {
+            stu[totalstudents].getStudentData();
+            totalstudents++;
+            cout << "Student Added Successfully" << endl;
+        }
+        else
+        {
+            cout << "Student List is Full" << endl;
+        }
+    }
+    void displayAllStudents()
+    {
+        if (totalstudents == 0)
+        {
+            cout << "No Student Records Available" << endl;
+            return;
+        }
+
+        for (int i = 0; i < totalstudents; i++)
+        {
+            stu[i].getStudentData();
+        }
+    }
+    void searchStudentByRollNo(int rollno)
+    {
+        for (int i = 0; i < totalstudents; i++)
+        {
+            if (stu[i].getRollNo() == rollno)
+            {
+                cout << "Student Found :" << endl;
+                stu[i].getStudentData();
+                return;
+            }
+        }
+
+        cout << "Student Not Found!";
+    }
 };
