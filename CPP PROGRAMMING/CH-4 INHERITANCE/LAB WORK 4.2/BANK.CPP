@@ -15,7 +15,7 @@ public:
     }
     void getROI()
     {
-        cout << "SBI Rate of Interest : " << rate << endl;
+        cout << "SBI Rate of Interest   : " << rate << endl;
     }
 };
 class BOB : public RBI
@@ -27,7 +27,7 @@ public:
     }
     void getROI()
     {
-        cout << "BOB Rate of Interest : " << rate << endl;
+        cout << "BOB Rate of Interest   : " << rate << endl;
     }
 };
 class ICICI : public RBI
