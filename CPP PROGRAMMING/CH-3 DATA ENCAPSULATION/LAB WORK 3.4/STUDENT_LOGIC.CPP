@@ -9,33 +9,36 @@ private:
     char stu_name[20];
     int stu_rollno;
     float stu_gpa;
-    int &refRollno = this->stu_rollno;
 
 public:
+    // default constructor
     Student()
     {
         this->stu_rollno = 0;
         strcpy(this->stu_name, "NO NAME");
         this->stu_gpa = 0;
     }
-    Student(int rollno, char name[], float gpa)
+    // parameterized constructor
+    Student(char name[], int rollno, float gpa)
     {
         this->stu_rollno = rollno;
         strcpy(this->stu_name, name);
         this->stu_gpa = gpa;
     }
-    Student(Student &s)
+
+    // copy constructor
+    Student(const Student &s)
     {
+        strcpy(stu_name, s.stu_name);
         stu_rollno = s.stu_rollno;
         stu_gpa = s.stu_gpa;
-        strcpy(stu_name, s.stu_name);
     }
     ~Student()
     {
     }
     void getStudentData()
     {
-        cout << "Roll NO : " << refRollno << endl;
+        cout << "Roll NO : " << stu_rollno << endl;
         cout << "Name : " << stu_name << endl;
         cout << "GPA : " << stu_gpa << endl;
     }
@@ -47,52 +50,70 @@ public:
 class StudentRecordManager
 {
 private:
-    Student stu[20];
+    Student *students;
     int totalstudents;
+    int capacity;
 
 public:
-    StudentRecordManager()
+    StudentRecordManager(int size = 20)
     {
+        capacity = size;
         totalstudents = 0;
+        students = new Student[capacity];
     }
-    void newstudent()
+    ~StudentRecordManager()
     {
-        if (totalstudents < 20)
+        delete[] students;
+    }
+    void newStudent(const Student &s)
+    {
+        if (totalstudents < capacity)
         {
-            stu[totalstudents].getStudentData();
+            students[totalstudents] = s;
             totalstudents++;
-            cout << "Student Added Successfully" << endl;
         }
         else
         {
             cout << "Student List is Full" << endl;
         }
     }
-    void displayAllStudents()
+    void newStudent(char name[], int rollno, float gpa)
+    {
+        if (totalstudents < capacity)
+        {
+            Student s(name, rollno, gpa);
+            students[totalstudents] = s;
+            totalstudents++;
+        }
+        else
+        {
+            cout << "Student List is Full!" << endl;
+        }
+    }
+    void displayAllStudents() const
     {
         if (totalstudents == 0)
         {
-            cout << "No Student Records Available" << endl;
+            cout << "No Student Records Available!" << endl;
             return;
         }
-
         for (int i = 0; i < totalstudents; i++)
         {
-            stu[i].getStudentData();
+            students[i].getStudentData();
         }
     }
-    void searchStudentByRollNo(int rollno)
+    void searchStudentByRollNo(int rollno) const
     {
         for (int i = 0; i < totalstudents; i++)
         {
-            if (stu[i].getRollNo() == rollno)
+            if (students[i].getRollNo() == rollno)
             {
-                cout << "Student Found :" << endl;
-                stu[i].getStudentData();
+                cout << "\nStudent Found!" << endl;
+                students[i].getStudentData();
                 return;
             }
         }
 
-        cout << "Student Not Found!";
+        cout << "Student Not Found!" << endl;
     }
 };
