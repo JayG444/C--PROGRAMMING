@@ -4,7 +4,7 @@ using namespace std;
 
 class Employee
 {
-protected:
+public:
     int employee_id;
     char name[20];
     int age;
@@ -41,9 +41,12 @@ class FullTimeEmployee : public Employee
 private:
     float bonus;
 
-    void setEmployeeData()
+public:
+    void setFullTimeEmployeeData()
     {
-        
+        setEmployeeData();
+        cout << "Enter Employee Bonus : ";
+        cin >> bonus;
     };
 
     void getFullTimeEmployeeData()
@@ -51,6 +54,94 @@ private:
         getEmployeeData();
     }
 };
-class PartTimeEmployee
+class PartTimeEmployee : public Employee
 {
+private:
+    int hours_worked;
+
+public:
+    void setPartTimeEmployeeData()
+    {
+        setEmployeeData();
+        cout << "Enter Employee Hours Worked : ";
+        cin >> hours_worked;
+    }
+
+    void getFullTimeEmployeeData()
+    {
+        getEmployeeData();
+    }
+};
+
+class EmployeeManagementSystem : public Employee
+{
+    Employee *emp[10];
+    int count;
+
+public:
+    void AddEmployee()
+    {
+        int choice;
+        cout << "Enter 1 for Full Time Employee." << endl;
+        cout << "Enter 2 for Part Time Employee." << endl;
+        cout << "Enter your choice : ";
+        cin >> choice;
+
+        if (choice == 1)
+        {
+            emp[count] = new FullTimeEmployee();
+            emp[count]->setEmployeeData();
+            count++;
+        }
+
+        else if (choice == 2)
+        {
+            emp[count] = new PartTimeEmployee();
+            emp[count]->setEmployeeData();
+            count++;
+        }
+
+        else
+        {
+            cout << "Invalid Choice!" << endl;
+        }
+    }
+
+    void DisplayEmployee()
+    {
+        for (int i = 0; i < count; i++)
+        {
+            emp[i]->getEmployeeData();
+        }
+    }
+
+    void DeleteEmployee()
+    {
+        int id;
+        cout << "Enter Employee ID to delete : ";
+        cin >> id;
+
+        for (int i = 0; i < count; i++)
+        {
+            if (emp[i]->employee_id == id)
+            {
+                delete emp[i];
+                for (int j = i; j < count - 1; j++)
+                {
+                    emp[j] = emp[j + 1];
+                }
+                count--;
+                cout << "Employee Deleted Successfully" << endl;
+                return;
+            }
+        }
+        cout << "Employee Not Found" << endl;
+    }
+    void exit()
+    {
+        for (int i = 0; i < count; i++)
+        {
+            delete emp[i];
+        }
+    }
 };
