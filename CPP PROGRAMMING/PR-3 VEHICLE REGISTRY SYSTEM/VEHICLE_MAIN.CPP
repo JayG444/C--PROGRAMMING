@@ -2,7 +2,7 @@
 
 int main()
 {
-    VehicleRegistry railway;
+    VehicleRegistry vehicle;
     int choice, number;
 
     for (;;)
@@ -18,17 +18,17 @@ int main()
         switch (choice)
         {
         case 1:
-            railway.addVehicle();
+            vehicle.addVehicle();
             break;
 
         case 2:
-            railway.displayAllVehicles();
+            vehicle.displayAllVehicles();
             break;
 
         case 3:
             cout << "Enter Vehicle ID : ";
             cin >> number;
-            railway.searchVehicleByID(number);
+            vehicle.searchVehicleByID(number);
             break;
 
         case 4:
