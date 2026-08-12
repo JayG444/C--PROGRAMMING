@@ -76,18 +76,43 @@ class Car : public Vehicle
 {
 protected:
     char fueltype[20];
+
+public:
+    void inputCarDetails()
+    {
+        inputVehicleDetails();
+        fflush(stdin);
+        cout << "Enter Fuel Type: ";
+        gets(fueltype);
+    }
 };
 
 class ElectricCar : public Car
 {
 protected:
-    char batterycapacity[20];
+    char batteryCapacity[20];
+
+public:
+    void inputElectricCarDetails()
+    {
+        inputCarDetails();
+        cout << "Enter Battery Capacity: ";
+        cin >> batteryCapacity;
+    }
 };
 
 class Aircraft : public Vehicle
 {
 protected:
     int flightRange;
+
+public:
+    void inputAircraftDetails()
+    {
+        inputVehicleDetails();
+        cout << "Enter Flight Range: ";
+        cin >> flightRange;
+    }
 };
 
 class FlyingCar : public Car, public Aircraft
@@ -97,6 +122,14 @@ class FlyingCar : public Car, public Aircraft
 class SportsCar : public ElectricCar
 {
     int topSpeed;
+
+public:
+    void inputSportsCarDetails()
+    {
+        inputElectricCarDetails();
+        cout << "Enter Top Speed: ";
+        cin >> topSpeed;
+    }
 };
 
 class Sedan : public Car
@@ -111,6 +144,7 @@ class VehicleRegistry
 {
     Vehicle vehicles[20];
     int totalVehicles;
+    int choice;
 
 public:
     VehicleRegistry()
@@ -118,16 +152,70 @@ public:
         totalVehicles = 0;
     }
 
+    Car car;
+    ElectricCar electricCar;
+    Aircraft aircraft;
+    FlyingCar flyingCar;
+    SportsCar sportsCar;
+    Sedan sedan;
+    SUV suv;
     void addVehicle()
     {
-        if (totalVehicles < 20)
+        cout << "What type of Vehicle do you want to add?" << endl;
+        cout << "1. Car" << endl;
+        cout << "2. Electric Car" << endl;
+        cout << "3. Aircraft" << endl;
+        cout << "4. Flying Car" << endl;
+        cout << "5. Sports Car" << endl;
+        cout << "6. Sedan" << endl;
+        cout << "7. SUV" << endl;
+        cout << "Enter Your Choice: ";
+        cin >> choice;
+
+        switch (choice)
         {
-            vehicles[totalVehicles].inputVehicleDetails();
+        case 1:
+            car.inputCarDetails();
+            vehicles[totalVehicles] = car;
+
             totalVehicles++;
-        }
-        else
-        {
-            cout << "Vehicle List is Full" << endl;
+            break;
+        case 2:
+            electricCar.inputElectricCarDetails();
+            vehicles[totalVehicles] = electricCar;
+
+            totalVehicles++;
+            break;
+        case 3:
+            aircraft.inputAircraftDetails();
+            vehicles[totalVehicles] = aircraft;
+
+            totalVehicles++;
+            break;
+        case 4:
+            flyingCar.inputCarDetails();
+            flyingCar.inputAircraftDetails();
+            vehicles[totalVehicles] = flyingCar;
+            totalVehicles++;
+            break;
+        case 5:
+            sportsCar.inputSportsCarDetails();
+            vehicles[totalVehicles] = sportsCar;
+
+            totalVehicles++;
+            break;
+        case 6:
+            sedan.inputCarDetails();
+            vehicles[totalVehicles] = sedan;
+            totalVehicles++;
+            break;
+        case 7:
+            suv.inputVehicleDetails();
+            vehicles[totalVehicles] = suv;
+            totalVehicles++;
+            break;
+        default:
+            cout << "Invalid Choice" << endl;
         }
     }
 

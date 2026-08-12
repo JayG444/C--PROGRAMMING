@@ -8,9 +8,9 @@ int main()
     for (;;)
     {
         cout << endl;
-        cout << "1. Add New Vehicle Record" << endl;
-        cout << "2. Display All Vehicle Records" << endl;
-        cout << "3. Search Vehicle by ID" << endl;
+        cout << "1. Add a Vehicle(of different type)" << endl;
+        cout << "2. View all Vehicles" << endl;
+        cout << "3. Search by ID" << endl;
         cout << "4. Exit" << endl;
         cout << "Enter Your Choice: ";
         cin >> choice;
