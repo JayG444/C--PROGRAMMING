@@ -12,7 +12,6 @@ protected:
     static int totalvehicles;
 
 public:
-    // default Constructor
     Vehicle()
     {
         vehicleID = 0;
@@ -20,19 +19,41 @@ public:
         strcpy(model, "NO MODEL");
         year = 0;
     }
-    // Destructor
+
     ~Vehicle()
     {
     }
-    // setter
+
+    void inputVehicleDetails()
+    {
+        cout << "Enter Vehicle ID: ";
+        cin >> vehicleID;
+
+        fflush(stdin);
+        cout << "Enter Manufacturer: ";
+        gets(manufacturer);
+
+        fflush(stdin);
+        cout << "Enter Model: ";
+        gets(model);
+
+        cout << "Enter Year: ";
+        cin >> year;
+    }
+
     void setVehicleDetails(int id, char manu[20], char mod[20], int y)
     {
         vehicleID = id;
-        strcpy(manufacturer , manu);
-        strcpy(model , mod);
+        strcpy(manufacturer, manu);
+        strcpy(model, mod);
         year = y;
     }
-    // Getter
+
+    int getVehicleID()
+    {
+        return vehicleID;
+    }
+
     void getVehicleDetails()
     {
         cout << endl;
@@ -41,53 +62,101 @@ public:
         cout << "Model : " << model << endl;
         cout << "Year : " << year << endl;
     }
+
     void display()
     {
         getVehicleDetails();
     }
 };
+
+// static member
+int Vehicle::totalvehicles = 10;
+
 class Car : public Vehicle
 {
+protected:
     char fueltype[20];
 };
+
 class ElectricCar : public Car
 {
+protected:
     char batterycapacity[20];
 };
+
 class Aircraft : public Vehicle
 {
+protected:
     int flightRange;
 };
+
 class FlyingCar : public Car, public Aircraft
 {
 };
+
 class SportsCar : public ElectricCar
 {
     int topSpeed;
 };
+
 class Sedan : public Car
 {
 };
+
 class SUV : public Car
 {
-    void inputVehicleDetails()
-    {
-        cout << "Enter Vehicle ID: ";
-        cin >> vehicleID;
-
-        fflush(stdin);
-        cout << "Enter Car Manufacturer: ";
-        gets(manufacturer);
-
-        fflush(stdin);
-        cout << "Enter Car Model: ";
-        gets(model);
-    }
 };
-// static member
-int Vehicle::totalvehicles = 10;
 
 class VehicleRegistry
 {
     Vehicle vehicles[20];
+    int totalVehicles;
+
+public:
+    VehicleRegistry()
+    {
+        totalVehicles = 0;
+    }
+
+    void addVehicle()
+    {
+        if (totalVehicles < 20)
+        {
+            vehicles[totalVehicles].inputVehicleDetails();
+            totalVehicles++;
+        }
+        else
+        {
+            cout << "Vehicle List is Full" << endl;
+        }
+    }
+
+    void displayAllVehicles()
+    {
+        if (totalVehicles == 0)
+        {
+            cout << "No Vehicle Records Available" << endl;
+            return;
+        }
+
+        for (int i = 0; i < totalVehicles; i++)
+        {
+            vehicles[i].display();
+        }
+    }
+
+    void searchVehicleByID(int id)
+    {
+        for (int i = 0; i < totalVehicles; i++)
+        {
+            if (vehicles[i].getVehicleID() == id)
+            {
+                cout << "Vehicle Found :" << endl;
+                vehicles[i].display();
+                return;
+            }
+        }
+
+        cout << "Vehicle Not Found" << endl;
+    }
 };
