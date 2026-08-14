@@ -117,6 +117,13 @@ public:
 
 class FlyingCar : public Car, public Aircraft
 {
+public:
+    void inputFlyingCarDetails()
+    {
+        Car::inputCarDetails();
+        cout << "Enter Flight Range: ";
+        cin >> Aircraft::flightRange;
+    }
 };
 
 class SportsCar : public ElectricCar
@@ -177,31 +184,27 @@ public:
         case 1:
             car.inputCarDetails();
             vehicles[totalVehicles] = car;
-
             totalVehicles++;
             break;
         case 2:
             electricCar.inputElectricCarDetails();
             vehicles[totalVehicles] = electricCar;
-
             totalVehicles++;
             break;
         case 3:
             aircraft.inputAircraftDetails();
             vehicles[totalVehicles] = aircraft;
-
             totalVehicles++;
             break;
         case 4:
-            flyingCar.inputCarDetails();
-            flyingCar.inputAircraftDetails();
+            flyingCar.inputFlyingCarDetails();
             vehicles[totalVehicles] = flyingCar;
             totalVehicles++;
             break;
+
         case 5:
             sportsCar.inputSportsCarDetails();
             vehicles[totalVehicles] = sportsCar;
-
             totalVehicles++;
             break;
         case 6:
