@@ -144,7 +144,7 @@ class Sedan : public Car
 class SUV : public Car
 {
 };
-
+// Vehicle Registry class
 class VehicleRegistry
 {
     Vehicle vehicles[20];
