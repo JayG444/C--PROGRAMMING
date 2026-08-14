@@ -115,14 +115,12 @@ public:
     }
 };
 
-class FlyingCar : public Car, public Aircraft
+class FlyingCar : public Aircraft
 {
 public:
     void inputFlyingCarDetails()
     {
-        Car::inputCarDetails();
-        cout << "Enter Flight Range: ";
-        cin >> Aircraft::flightRange;
+        inputAircraftDetails();
     }
 };
 
