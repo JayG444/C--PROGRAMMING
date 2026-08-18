@@ -9,7 +9,7 @@ int main()
     cout << "=======SAVINGS ACCOUNT========" << endl;
     savings.setAccountDetails();
     savings.setSavingsDetails();
-    cout << "=======CHECK ACCOUNT========" << endl;
+    cout << "=======CHECKINGS ACCOUNT========" << endl;
     checking.setAccountDetails();
     checking.setOverdraftLimit();
     cout << "=======FIXED DEPOSIT ACCOUNT========" << endl;
@@ -21,6 +21,9 @@ int main()
     double amount;
     for (;;)
     {
+        cout << "========================" << endl;
+        cout << "---SERVICES AVAILABLE---" << endl;
+        cout << "========================" << endl;
         cout << "1. Savings Account Information" << endl;
         cout << "2. Checking Account Information" << endl;
         cout << "3. Fixed Deposit Information" << endl;
@@ -39,60 +42,78 @@ int main()
         switch (choice)
         {
         case 1:
+            cout << "========SAVINGS ACCOUNT INFORMATION========" << endl;
             savings.displayAccountInfo();
+            cout << "===========================================" << endl;
             break;
         case 2:
+            cout << "========CHECKING ACCOUNT INFORMATION========" << endl;
             checking.displayAccountInfo();
+            cout << "============================================" << endl;
             break;
         case 3:
+            cout << "========FIXED DEPOSIT ACCOUNT INFORMATION========" << endl;
             fixedDeposit.displayAccountInfo();
+            cout << "=================================================" << endl;
             break;
         case 4:
+            cout << "========DEPOSIT IN SAVINGS========" << endl;
             cout << "Enter amount: ";
             cin >> amount;
             savings.deposit(amount);
+            cout << "==================================" << endl;
             break;
         case 5:
+            cout << "========WITHDRAW FROM SAVINGS========" << endl;
             cout << "Enter amount: ";
             cin >> amount;
             savings.withdraw(amount);
+            cout << "=====================================" << endl;
             break;
         case 6:
+            cout << "========DEPOSIT IN CHECKING========" << endl;
             cout << "Enter amount: ";
             cin >> amount;
             checking.deposit(amount);
+            cout << "===================================" << endl;
             break;
         case 7:
+            cout << "========WITHDRAW FROM CHECKING========" << endl;
             cout << "Enter amount: ";
             cin >> amount;
             checking.withdraw(amount);
+            cout << "======================================" << endl;
             break;
         case 8:
+            cout << "========SAVINGS INTEREST========" << endl;
             savings.calculateInterest();
+            cout << "================================" << endl;
             break;
         case 9:
+            cout << "========FIXED DEPOSIT INTEREST========" << endl;
             fixedDeposit.calculateInterest();
+            cout << "======================================" << endl;
             break;
         case 10:
+            cout << "========CHECK OVERDRAFT========" << endl;
             checking.checkOverdraft();
+            cout << "===============================" << endl;
             break;
         case 11:
-            cout << "Savings Balance : Rs. "
-                 << savings.getBalance() << endl;
-
-            cout << "Checking Balance : Rs. "
-                 << checking.getBalance() << endl;
-
-            cout << "Fixed Deposit   : Rs. "
-                 << fixedDeposit.getBalance() << endl;
+            cout << "========DISPLAYING ALL BALANCES========" << endl;
+            cout << "Savings Balance : Rs. " << savings.getBalance() << endl;
+            cout << "Checking Balance : Rs. " << checking.getBalance() << endl;
+            cout << "Fixed Deposit   : Rs. " << fixedDeposit.getBalance() << endl;
+            cout << "=======================================" << endl;
             break;
         case 12:
+            cout << "========EXITING========" << endl;
             cout << "Exit." << endl;
+            cout << "=======================" << endl;
             if (choice == 12)
             {
                 return 0;
             }
-
             break;
         default:
             cout << "Invalid choice!" << endl;

@@ -14,12 +14,6 @@ public:
     {
         balance = amount;
     }
-    // void setAccountDetails(int accNo, string name, double bal)
-    // {
-    //     accountNumber = accNo;
-    //     accountHolderName = name;
-    //     balance = bal;
-    // }
     void setAccountDetails()
     {
         cout << "Enter your Account Number :";
@@ -78,10 +72,6 @@ private:
     float interestRate;
 
 public:
-    // void setSavingsDetails(float rate)
-    // {
-    //     interestRate = rate;
-    // }
     void setSavingsDetails()
     {
         cout << "Enter the rate of Savings Account : ";
@@ -110,10 +100,6 @@ private:
     double overdraftLimit;
 
 public:
-    // void setOverdraftLimit(double limit)
-    // {
-    //     overdraftLimit = limit;
-    // }
     void setOverdraftLimit()
     {
         cout << "Enter the overdraft Limit :";
@@ -159,11 +145,6 @@ private:
     float interestRate;
 
 public:
-    // void setFixedDepositDetails(float t, float rate)
-    // {
-    //     term = t;
-    //     interestRate = rate;
-    // }
     void setFixedDepositDetails()
     {
         cout << "Enter the Term(duration in months) : ";
