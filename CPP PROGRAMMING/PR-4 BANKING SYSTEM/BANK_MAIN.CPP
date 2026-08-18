@@ -88,6 +88,11 @@ int main()
             break;
         case 12:
             cout << "Exit." << endl;
+            if (choice == 12)
+            {
+                return 0;
+            }
+
             break;
         default:
             cout << "Invalid choice!" << endl;

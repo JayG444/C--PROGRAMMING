@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string>
+#include <string.h>
 using namespace std;
 
 class BankAccount
@@ -101,14 +101,13 @@ public:
 
     void withdraw(double amount)
     {
-        if (amount <= getBalance())
+        if (amount > 0 && amount <= getBalance())
         {
-            withdraw(amount);
+            BankAccount::withdraw(amount);
         }
-        else if (amount <= getBalance() + overdraftLimit)
+        else if (amount > 0 && amount <= getBalance() + overdraftLimit)
         {
             setBalance(getBalance() - amount);
-
             cout << "Withdrawal successful using overdraft."
                  << endl;
         }
@@ -126,7 +125,7 @@ public:
 
     void displayAccountInfo()
     {
-        displayAccountInfo();
+        BankAccount::displayAccountInfo();
         cout << "Overdraft Limit : Rs. "
              << overdraftLimit << endl;
     }
@@ -155,7 +154,7 @@ public:
     }
     void displayAccountInfo()
     {
-        displayAccountInfo();
+        BankAccount::displayAccountInfo();
         cout << "Term          : " << term << " months" << endl;
         cout << "Interest Rate : " << interestRate << "%" << endl;
     }
