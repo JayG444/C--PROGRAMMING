@@ -6,7 +6,7 @@ class BankAccount
 {
 protected:
     int accountNumber;
-    string accountHolderName;
+    char accountHolderName[20];
     double balance;
 
 public:
@@ -14,11 +14,23 @@ public:
     {
         balance = amount;
     }
-    void setAccountDetails(int accNo, string name, double bal)
+    // void setAccountDetails(int accNo, string name, double bal)
+    // {
+    //     accountNumber = accNo;
+    //     accountHolderName = name;
+    //     balance = bal;
+    // }
+    void setAccountDetails()
     {
-        accountNumber = accNo;
-        accountHolderName = name;
-        balance = bal;
+        cout << "Enter your Account Number :";
+        cin >> accountNumber;
+
+        fflush(stdin);
+        cout << "Enter the Account Holder name :";
+        gets(accountHolderName);
+
+        cout << "Enter Account Balance :";
+        cin >> balance;
     }
     void deposit(double amount)
     {
@@ -66,11 +78,15 @@ private:
     float interestRate;
 
 public:
-    void setSavingsDetails(float rate)
+    // void setSavingsDetails(float rate)
+    // {
+    //     interestRate = rate;
+    // }
+    void setSavingsDetails()
     {
-        interestRate = rate;
+        cout << "Enter the rate of Savings Account : ";
+        cin >> interestRate;
     }
-
     void calculateInterest()
     {
         double interest;
@@ -94,9 +110,14 @@ private:
     double overdraftLimit;
 
 public:
-    void setOverdraftLimit(double limit)
+    // void setOverdraftLimit(double limit)
+    // {
+    //     overdraftLimit = limit;
+    // }
+    void setOverdraftLimit()
     {
-        overdraftLimit = limit;
+        cout << "Enter the overdraft Limit :";
+        cin >> overdraftLimit;
     }
 
     void withdraw(double amount)
@@ -138,10 +159,17 @@ private:
     float interestRate;
 
 public:
-    void setFixedDepositDetails(float t, float rate)
+    // void setFixedDepositDetails(float t, float rate)
+    // {
+    //     term = t;
+    //     interestRate = rate;
+    // }
+    void setFixedDepositDetails()
     {
-        term = t;
-        interestRate = rate;
+        cout << "Enter the Term(duration in months) : ";
+        cin >> term;
+        cout << "Enter the rate of Fixed Deposit Account : ";
+        cin >> interestRate;
     }
 
     void calculateInterest()

@@ -7,19 +7,21 @@ int main()
     CheckingAccount checking;
     FixedDepositAccount fixedDeposit;
 
-    savings.setAccountDetails(101, "Nayan Patel", 10000);
-    savings.setSavingsDetails(5);
-    checking.setAccountDetails(102, "Henil Gabani", 15000);
-    checking.setOverdraftLimit(5000);
-    fixedDeposit.setAccountDetails(103, "Neha Kakkar", 50000);
-    fixedDeposit.setFixedDepositDetails(12, 7);
+    cout << "=======SAVINGS ACCOUNT========" << endl;
+    savings.setAccountDetails();
+    savings.setSavingsDetails();
+    cout << "=======CHECK ACCOUNT========" << endl;
+    checking.setAccountDetails();
+    checking.setOverdraftLimit();
+    cout << "=======FIXED DEPOSIT ACCOUNT========" << endl;
+    fixedDeposit.setAccountDetails();
+    fixedDeposit.setFixedDepositDetails();
 
     BankAccount *account;
     int choice;
     double amount;
     for (;;)
     {
-
         cout << "1. Savings Account Information" << endl;
         cout << "2. Checking Account Information" << endl;
         cout << "3. Fixed Deposit Information" << endl;
@@ -32,7 +34,6 @@ int main()
         cout << "10. Check Overdraft" << endl;
         cout << "11. Display All Balances" << endl;
         cout << "12. Exit" << endl;
-
         cout << "Enter your choice: ";
         cin >> choice;
 
