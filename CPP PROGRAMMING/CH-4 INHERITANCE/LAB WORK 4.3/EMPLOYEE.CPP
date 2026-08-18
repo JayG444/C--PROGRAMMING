@@ -30,10 +30,10 @@ public:
     // getter
     void getEmployeeData()
     {
-        cout << "ID     : " << employee_id;
-        cout << "NAME   : " << name;
-        cout << "AGE    : " << age;
-        cout << "SALARY : " << salary;
+        cout << "ID     : " << employee_id << endl;
+        cout << "NAME   : " << name << endl;
+        cout << "AGE    : " << age << endl;
+        cout << "SALARY : " << salary << endl;
     }
 };
 class FullTimeEmployee : public Employee
@@ -52,6 +52,7 @@ public:
     void getFullTimeEmployeeData()
     {
         getEmployeeData();
+        cout << "Bonus : " << bonus << endl;
     }
 };
 class PartTimeEmployee : public Employee
@@ -67,9 +68,10 @@ public:
         cin >> hours_worked;
     }
 
-    void getFullTimeEmployeeData()
+    void getPartTimeEmployeeData()
     {
         getEmployeeData();
+        cout << "Hours Worked : " << hours_worked << endl;
     }
 };
 
@@ -93,14 +95,12 @@ public:
             emp[count]->setEmployeeData();
             count++;
         }
-
         else if (choice == 2)
         {
             emp[count] = new PartTimeEmployee();
             emp[count]->setEmployeeData();
             count++;
         }
-
         else
         {
             cout << "Invalid Choice!" << endl;
