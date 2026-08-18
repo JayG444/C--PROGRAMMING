@@ -1,6 +1,5 @@
 #include "BANK.CPP"
 
-// menu
 int main()
 {
     SavingsAccount savings;
