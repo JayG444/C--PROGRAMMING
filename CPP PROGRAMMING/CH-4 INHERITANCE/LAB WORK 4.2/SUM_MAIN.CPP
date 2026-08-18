@@ -3,5 +3,9 @@
 int main()
 {
     NUM4 n;
-    n.Sum(10, 20, 30, 40);
+    n.setNum1();
+    n.setNum2();
+    n.setNum3();
+    n.setNum4();
+    n.Sum();
 }
