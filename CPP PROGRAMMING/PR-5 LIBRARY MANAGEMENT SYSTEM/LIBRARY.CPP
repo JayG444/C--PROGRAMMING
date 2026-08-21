@@ -101,7 +101,8 @@ public:
 
     void displayDetails()
     {
-        cout << "=======BOOK========";
+        cout << endl
+             << "=======BOOK========" << endl;
         cout << "Title    : " << getTitle() << endl;
         cout << "Author   : " << getAuthor() << endl;
         cout << "ISBN     : " << isbn << endl;
@@ -162,7 +163,8 @@ public:
 
     void displayDetails()
     {
-        cout << "========DVD========";
+        cout << endl
+             << "========DVD========" << endl;
         cout << "Title    : " << getTitle() << endl;
         cout << "Director : " << getAuthor() << endl;
         cout << "Duration : " << duration << " minutes" << endl;
@@ -223,7 +225,7 @@ public:
     void displayDetails()
     {
         cout << endl
-             << "=======MAGAZINE======";
+             << "=======MAGAZINE======" << endl;
         cout << "Title       : " << getTitle() << endl;
         cout << "Publisher   : " << getAuthor() << endl;
         cout << "Issue No.   : " << issueNumber << endl;
