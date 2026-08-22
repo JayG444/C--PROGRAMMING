@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string.h>
+#include <cstring>
 using namespace std;
 
 class Device
@@ -11,9 +11,9 @@ protected:
 public:
     void setDeviceData()
     {
-        fflush(stdin);
+        cin.ignore();
         cout << "Enter the Brand of the Device :";
-        gets(brand);
+        cin.getline(brand, 20);
 
         cout << "Enter the Power Consumption of the Device :";
         cin >> powerconsumption;
@@ -23,10 +23,10 @@ public:
         cout << "Brand             : " << brand << endl;
         cout << "Power Consumption : " << powerconsumption << endl;
     }
-    virtual void calculateDiscount()
-    {
-    }
+    virtual void calculateDiscount() = 0;
+    virtual ~Device() {}
 };
+
 class Laptop : public Device
 {
 public:
@@ -36,11 +36,12 @@ public:
              << "========INPUT LAPTOP DETAILS========" << endl;
         setDeviceData();
     }
-    void calculateDiscount(float discount)
+    void calculateDiscount()
     {
-        discount = 5.04;
+        cout << "Discount for Laptop: 5.04%" << endl;
     }
 };
+
 class Smartphone : public Device
 {
 public:
@@ -50,24 +51,27 @@ public:
              << "========INPUT SMARTPHONE DETAILS========" << endl;
         setDeviceData();
     }
-    void calculateDiscount(float discount)
+    void calculateDiscount()
     {
-        discount = 6.03;
+        cout << "Discount for Smartphone: 6.03%" << endl;
     }
 };
 
 int main()
 {
-    Animal *ptr;
     Laptop l1;
     Smartphone s1;
 
     l1.LaptopData();
     s1.SmartPhoneData();
+    
     cout << "========LAPTOP DETAILS========" << endl;
     l1.getDeviceData();
-    Animal::calculateDiscount();
+    l1.calculateDiscount();
+    
     cout << "========SMARTPHONE DETAILS========" << endl;
     s1.getDeviceData();
-    Animal::calculateDiscount();
+    s1.calculateDiscount();
+
+    return 0;
 }
