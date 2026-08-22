@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cstring>
+#include <string.h>
 using namespace std;
 
 class Device
@@ -11,9 +11,9 @@ protected:
 public:
     void setDeviceData()
     {
-        cin.ignore();
+        fflush(stdin);
         cout << "Enter the Brand of the Device :";
-        cin.getline(brand, 20);
+        gets(brand);
 
         cout << "Enter the Power Consumption of the Device :";
         cin >> powerconsumption;
@@ -24,7 +24,6 @@ public:
         cout << "Power Consumption : " << powerconsumption << endl;
     }
     virtual void calculateDiscount() = 0;
-    virtual ~Device() {}
 };
 
 class Laptop : public Device
