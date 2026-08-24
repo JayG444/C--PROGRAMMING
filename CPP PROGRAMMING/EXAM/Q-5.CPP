@@ -1,5 +1,5 @@
-#include<iostream>
-#include<string.h>
+#include <iostream>
+#include <string.h>
 using namespace std;
 
 class Animal
@@ -7,7 +7,6 @@ class Animal
 public:
     virtual void makesound() = 0;
     virtual void move() = 0;
-    virtual ~Animal() {}
 };
 
 class Lion : public Animal
@@ -40,15 +39,15 @@ int main()
 {
     Lion lion;
     Fish fish;
-    
-    Animal* ptr1 = &lion;
-    Animal* ptr2 = &fish;
-    
+
+    Animal *ptr1 = &lion;
+    Animal *ptr2 = &fish;
+
     ptr1->makesound();
     ptr1->move();
-    
+
     ptr2->makesound();
     ptr2->move();
-    
+
     return 0;
 }

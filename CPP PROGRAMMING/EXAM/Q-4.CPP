@@ -63,11 +63,11 @@ int main()
 
     l1.LaptopData();
     s1.SmartPhoneData();
-    
+
     cout << "========LAPTOP DETAILS========" << endl;
     l1.getDeviceData();
     l1.calculateDiscount();
-    
+
     cout << "========SMARTPHONE DETAILS========" << endl;
     s1.getDeviceData();
     s1.calculateDiscount();
